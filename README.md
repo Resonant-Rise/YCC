@@ -1,6 +1,8 @@
 # YCC
 Resonant Rise: YogsCast Complete
+
 MC 1.7.10
+
 Resonant Rise 3
 
 # Versioning Explained
