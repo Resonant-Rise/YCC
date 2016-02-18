@@ -4,7 +4,7 @@ MC 1.7.10
 Resonant Rise 3
 
 # Versioning Explained
-
+```
 0.0.1-a.1.0.0
 | | | | | | |
 | | | | | | _Dev Patch
@@ -29,3 +29,4 @@ a.1.0.0
 |_Stage
 
 This is for development only.
+```
