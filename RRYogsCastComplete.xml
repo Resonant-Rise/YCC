@@ -164,10 +164,6 @@
 
     <!-- Dependencies (as classed by ATL) -->
 
-        <!-- Dependencies Here -->
-
-    <!-- Project-Flux Core -->
-
         <mod name="bspkrsCore"
              version="6.16" url="packs/YogscastCompletePack/files/Project_Flux/[1.7.10]bspkrsCore-universal-6.16.jar" file="[1.7.10]bspkrsCore-universal-6.16.jar" md5="e77344bda12bd0b91e01dfbb00a653f0" download="server"
              type="mods"
@@ -175,6 +171,61 @@
              authors="DaftPVF,bspkrs"
              description="Shared classes used in the mods maintained by bspkrs."
              />
+
+        <mod name="Baubles"
+             version="1.0.1.10" url="packs/YogscastCompletePack/files/Project_Flux/Baubles-1.7.10-1.0.1.10.jar" file="Baubles-1.7.10-1.0.1.10.jar" md5="0e711d6535970f62d4964edaa26f4623" download="server"
+             type="mods"
+             website="http://www.minecraftforum.net/topic/2535073-baubles" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/baubles?gameCategorySlug=mc-mods&amp;projectID=227083&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=leon%40imaginet.co.za&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:"
+             authors="Azanor"
+             description="Adding a touch of bling to Minecraft"
+             />
+
+        <mod name="CodeChickenLib"
+             version="1.1.3.138" url="packs/YogscastCompletePack/files/Project_Flux/CodeChickenLib-1.7.10-1.1.3.138-universal.jar" file="CodeChickenLib-1.7.10-1.1.3.138-universal.jar" md5="07fd1a4d8337cca200d871e25426705d" download="server"
+             type="mods"
+             website=""
+             description="CodeChiken Lib File"
+             />
+
+        <mod name=""
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/commons-codec-1.9.jar" file="commons-codec-1.9.jar" md5="75615356605c8128013da9e3ac62a249" download="server"
+             type="mods"
+             website=""
+             description=""
+             />
+
+        <mod name=""
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/commons-compress-1.8.1.jar" file="commons-compress-1.8.1.jar" md5="d862e30ff6b5d78264677dcd6507abb8" download="server"
+             type="mods"
+             website=""
+             description=""
+             />
+
+        <mod name="Forge Multipart"
+             version="1.2.0.344" url="packs/YogscastCompletePack/files/Project_Flux/ForgeMultipart-1.7.10-1.2.0.344-universal.jar" file="ForgeMultipart-1.7.10-1.2.0.344-universal.jar" md5="cd28e9cd1a4b019fe196c95d12be0c8e" download="server"
+             type="mods"
+             website="https://github.com/Chicken-Bones/ForgeMultipart"
+             authors="ChickenBones"
+             description="Open source library for facilitation of multiple functional parts in the one block space."
+             />
+
+        <mod name="libsandstone"
+             version="1.0.0" url="packs/YogscastCompletePack/files/Project_Flux/LibSandstone-1.0.0.jar" file="LibSandstone-1.0.0.jar" md5="1ab495f90923a2d0c67541d1e88ec32f" download="server"
+             type="mods"
+             website="http://www.curseforge.com/projects/224828/"
+             authors="x3n0ph0b3,TheMike"
+             description="Sandstone, the foundation for pyramids. Another modding framework."
+             />
+
+        <mod name="MrTJPCore"
+             version="1.0.8.16" url="packs/YogscastCompletePack/files/Project_Flux/MrTJPCore-1.0.8.16-universal.jar" file="MrTJPCore-1.0.8.16-universal.jar" md5="3a7947a41103bff7f553088a7a1e2706" download="server"
+             type="mods"
+             website="..."
+             authors="MrTJP"
+             description="Core libs and utilities"
+             />
+
+    <!-- Project-Flux Core -->
 
         <mod name="AE2 Stuff"
              version="0.4.3.47" url="packs/YogscastCompletePack/files/Project_Flux/AE2STUFF-0.4.3.47-MC1.7.10.jar" file="AE2STUFF-0.4.3.47-MC1.7.10.jar" md5="cbf4c7e56820bb40c91ead8331dfbb32" download="server"
@@ -201,7 +252,7 @@
              />
 
         <mod name="AppleCore"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/APPLECORE-MC1.7.10-1.1.0.jar" file="APPLECORE-MC1.7.10-1.1.0.jar" md5="eee9b53b347078639fcb658abd2fdb65" download="server"
+             version="2.4.106" url="packs/YogscastCompletePack/files/Project_Flux/APPLECORE-MC1.7.10-1.1.0.jar" file="APPLECORE-MC1.7.10-1.1.0.jar" md5="eee9b53b347078639fcb658abd2fdb65" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/224472/"
              authors="squeek502"
@@ -264,13 +315,6 @@
              description="Utilities for asie&apos;s mods"
              />
 
-        <mod name=""
-             version="0.0.2" url="packs/YogscastCompletePack/files/Project_Flux/ASIETWEAKS-1.7.10-0.0.2.jar" file="ASIETWEAKS-1.7.10-0.0.2.jar" md5="9f47a1cd5d81f77c1d40205fd92c0692" download="server"
-             type="mods"
-             website=""
-             description=""
-             />
-
         <mod name="AuraCascade"
              version="1.3" url="packs/YogscastCompletePack/files/Project_Flux/AURACASCADE-486.jar" file="AURACASCADE-486.jar" md5="12b29ef94b3088c62a299f27757a8e45" download="server"
              type="mods"
@@ -293,14 +337,6 @@
              website="http://www.minecraftforum.net/topic/1492661-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/forge-backpacks?gameCategorySlug=mc-mods&amp;projectID=59143&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=t.werdin%40eydamos.de&amp;bn=PP-DonationsBF:btn_donateCC_"
              authors="Eydamos"
              description="Provides the player with multiple, colored backpacks, which each has the space of a normal chest."
-             />
-
-        <mod name="Baubles"
-             version="1.0.1.10" url="packs/YogscastCompletePack/files/Project_Flux/Baubles-1.7.10-1.0.1.10.jar" file="Baubles-1.7.10-1.0.1.10.jar" md5="0e711d6535970f62d4964edaa26f4623" download="server"
-             type="mods"
-             website="http://www.minecraftforum.net/topic/2535073-baubles" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/baubles?gameCategorySlug=mc-mods&amp;projectID=227083&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=leon%40imaginet.co.za&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:"
-             authors="Azanor"
-             description="Adding a touch of bling to Minecraft"
              />
 
         <mod name="BD Lib"
@@ -360,7 +396,7 @@
              />
 
         <mod name="Binnie&apos;s Mods"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/BINNIE-MODS-2.0-PRE12.jar" file="BINNIE-MODS-2.0-PRE12.jar" md5="db5729107e8f0e743f64c945c9f2524e" download="server"
+             version="2.0-Pre12" url="packs/YogscastCompletePack/files/Project_Flux/BINNIE-MODS-2.0-PRE12.jar" file="BINNIE-MODS-2.0-PRE12.jar" md5="db5729107e8f0e743f64c945c9f2524e" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/223525/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/binnies-mods?gameCategorySlug=mc-mods&amp;projectID=223525&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=alexjbinnie%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_"
              authors="Binnie567"
@@ -384,7 +420,7 @@
              />
 
         <mod name="Buildcraft"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/BUILDCRAFT-7.0.21.jar" file="BUILDCRAFT-7.0.21.jar" md5="a0a6b90dcf92aa8b70224cddbeee88c8" download="server"
+             version="7.0.21" url="packs/YogscastCompletePack/files/Project_Flux/BUILDCRAFT-7.0.21.jar" file="BUILDCRAFT-7.0.21.jar" md5="a0a6b90dcf92aa8b70224cddbeee88c8" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/61811/"
              authors="CovertJaguar,buildcraftchildsplay"
@@ -455,18 +491,11 @@
              description="Adds a mountable, breedable mob and supporting items."
              />
 
-        <mod name=""
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/CODECHICKENCORE-1.7.10-1.0.7.46-UNIVERSAL.jar" file="CODECHICKENCORE-1.7.10-1.0.7.46-UNIVERSAL.jar" md5="8419dad3d2a93e11f0cedbe0868281f2" download="server"
+        <mod name="CodeChickenCore"
+             version="1.0.7.46" url="packs/YogscastCompletePack/files/Project_Flux/CODECHICKENCORE-1.7.10-1.0.7.46-UNIVERSAL.jar" file="CODECHICKENCORE-1.7.10-1.0.7.46-UNIVERSAL.jar" md5="8419dad3d2a93e11f0cedbe0868281f2" download="server"
              type="mods"
              website=""
-             description=""
-             />
-
-        <mod name=""
-             version="1.1.3.138" url="packs/YogscastCompletePack/files/Project_Flux/CodeChickenLib-1.7.10-1.1.3.138-universal.jar" file="CodeChickenLib-1.7.10-1.1.3.138-universal.jar" md5="07fd1a4d8337cca200d871e25426705d" download="server"
-             type="mods"
-             website=""
-             description=""
+             description="CodeChiken Core File"
              />
 
         <mod name="CoFH Core"
@@ -478,25 +507,11 @@
              />
 
         <mod name="CoFHLib"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/COFHLIB-[1.7.10]1.0.3-175.jar" file="COFHLIB-[1.7.10]1.0.3-175.jar" md5="56d4419ee75a25839de12732735dc1a5" download="server"
+             version="1.0.2-175" url="packs/YogscastCompletePack/files/Project_Flux/COFHLIB-[1.7.10]1.0.3-175.jar" file="COFHLIB-[1.7.10]1.0.3-175.jar" md5="56d4419ee75a25839de12732735dc1a5" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/220333/"
              authors="TeamCoFH,Jadedcat,KingLemming,skyboy026,ZeldoKavira"
              description="Library/API required by all CoFH mods. It&apos;s also meant as a resource for other modders!"
-             />
-
-        <mod name=""
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/commons-codec-1.9.jar" file="commons-codec-1.9.jar" md5="75615356605c8128013da9e3ac62a249" download="server"
-             type="mods"
-             website=""
-             description=""
-             />
-
-        <mod name=""
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/commons-compress-1.8.1.jar" file="commons-compress-1.8.1.jar" md5="d862e30ff6b5d78264677dcd6507abb8" download="server"
-             type="mods"
-             website=""
-             description=""
              />
 
         <mod name="Compact Machines"
@@ -652,8 +667,7 @@
              />
 
         <mod name="Flaxbeard&apos;s Steam Power"
-             version="@
-               version@" url="packs/YogscastCompletePack/files/Project_Flux/FLAXBEARDSSTEAMPOWER-1.7.10-0.28.7.jar" file="FLAXBEARDSSTEAMPOWER-1.7.10-0.28.7.jar" md5="58316287f57d7baf5caf04bad76f000e" download="server"
+             version="0.28.7" url="packs/YogscastCompletePack/files/Project_Flux/FLAXBEARDSSTEAMPOWER-1.7.10-0.28.7.jar" file="FLAXBEARDSSTEAMPOWER-1.7.10-0.28.7.jar" md5="58316287f57d7baf5caf04bad76f000e" download="server"
              type="mods"
              website="https://github.com/Flaxbeard/Flaxbeards-Steam-Power"
              authors="SatanicSanta,xbony2,dmillerw,Flaxbeard,Zenith"
@@ -682,14 +696,6 @@
              website="http://forestry.sengir.net/"
              authors="SirSengir"
              description="Trees, bees and more."
-             />
-
-        <mod name="Forge Multipart"
-             version="1.2.0.344" url="packs/YogscastCompletePack/files/Project_Flux/ForgeMultipart-1.7.10-1.2.0.344-universal.jar" file="ForgeMultipart-1.7.10-1.2.0.344-universal.jar" md5="cd28e9cd1a4b019fe196c95d12be0c8e" download="server"
-             type="mods"
-             website="https://github.com/Chicken-Bones/ForgeMultipart"
-             authors="ChickenBones"
-             description="Open source library for facilitation of multiple functional parts in the one block space."
              />
 
         <mod name="Fossils and Archeology Revival"
@@ -788,8 +794,8 @@
              description="Adds some useful and neat peripherals"
              />
 
-        <mod name=""
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/INDUSTRIALCRAFT-2-2.2.736-EXPERIMENTAL-API.jar" file="INDUSTRIALCRAFT-2-2.2.736-EXPERIMENTAL-API.jar" md5="a2990486c7e7f05fe34ffddfcb7cd096" download="server"
+        <mod name="Industrial-Craft 2 API"
+             version="2.2.736" url="packs/YogscastCompletePack/files/Project_Flux/INDUSTRIALCRAFT-2-2.2.736-EXPERIMENTAL-API.jar" file="INDUSTRIALCRAFT-2-2.2.736-EXPERIMENTAL-API.jar" md5="a2990486c7e7f05fe34ffddfcb7cd096" download="server"
              type="mods"
              website=""
              description=""
@@ -809,14 +815,6 @@
              website="https://github.com/Kobata/inventory-tweaks"
              authors="Jimeo Wan,Kobata"
              description="Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items."
-             />
-
-        <mod name="Iridium Mod"
-             version="1.0.1" url="packs/YogscastCompletePack/files/Project_Flux/IRIDIUM MOD-1.0.2.jar" file="IRIDIUM MOD-1.0.2.jar" md5="efe856b03ec38b9a70b1d21735f8f1c8" download="server"
-             type="mods"
-             website=""
-             authors="ganymedes01"
-             description="A simple mod that adds Iridium Ore"
              />
 
         <mod name="Iron Chest"
@@ -852,16 +850,8 @@
              description inside Minecraft, then you&apos;re fine!"
              />
 
-        <mod name="libsandstone"
-             version="1.0.0" url="packs/YogscastCompletePack/files/Project_Flux/LibSandstone-1.0.0.jar" file="LibSandstone-1.0.0.jar" md5="1ab495f90923a2d0c67541d1e88ec32f" download="server"
-             type="mods"
-             website="http://www.curseforge.com/projects/224828/"
-             authors="x3n0ph0b3,TheMike"
-             description="Sandstone, the foundation for pyramids. Another modding framework."
-             />
-
-        <mod name=""
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/LOGISTICSPIPES-0.9.1.15.jar" file="LOGISTICSPIPES-0.9.1.15.jar" md5="c7763ec2287419a568484b67cc14eb88" download="server"
+        <mod name="Logistics Pipes"
+             version="0.9.1.15" url="packs/YogscastCompletePack/files/Project_Flux/LOGISTICSPIPES-0.9.1.15.jar" file="LOGISTICSPIPES-0.9.1.15.jar" md5="c7763ec2287419a568484b67cc14eb88" download="server"
              type="mods"
              website=""
              description=""
@@ -979,14 +969,6 @@
              description="More chisels for Chisel 2"
              />
 
-        <mod name="MrTJPCore"
-             version="1.0.8.16" url="packs/YogscastCompletePack/files/Project_Flux/MrTJPCore-1.0.8.16-universal.jar" file="MrTJPCore-1.0.8.16-universal.jar" md5="3a7947a41103bff7f553088a7a1e2706" download="server"
-             type="mods"
-             website="..."
-             authors="MrTJP"
-             description="Core libs and utilities"
-             />
-
         <mod name="Natura"
              version="1.7.10-92.8a1150f" url="packs/YogscastCompletePack/files/Project_Flux/NATURA-1.7.10-2.2.0.1.jar" file="NATURA-1.7.10-2.2.0.1.jar" md5="ed9a7044d963b7e5ce7ca52ec628bd11" download="server"
              type="mods"
@@ -1019,8 +1001,8 @@
              description="Introduces mineable yet dangerous ores to the Nether"
              />
 
-        <mod name=""
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/NOTENOUGHITEMS-1.7.10-1.0.5.111-UNIVERSAL.jar" file="NOTENOUGHITEMS-1.7.10-1.0.5.111-UNIVERSAL.jar" md5="2a1ad0bb450ad389ba515bf95d24a1d9" download="server"
+        <mod name="Not Enough Items"
+             version="1.0.5.111" url="packs/YogscastCompletePack/files/Project_Flux/NOTENOUGHITEMS-1.7.10-1.0.5.111-UNIVERSAL.jar" file="NOTENOUGHITEMS-1.7.10-1.0.5.111-UNIVERSAL.jar" md5="2a1ad0bb450ad389ba515bf95d24a1d9" download="server"
              type="mods"
              website=""
              description=""
