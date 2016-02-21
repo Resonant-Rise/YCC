@@ -9,8 +9,8 @@ Resonant Rise 3
 ```
 0.0.1-a.1.0.0
 | | | | | | |
-| | | | | | _Dev Patch
-| | | | | _Dev Minor
+| | | | | | |_Dev Patch
+| | | | | |_Dev Minor
 | | | | |_Dev Major
 | | | |_Dev Stage
 | | |_Patch

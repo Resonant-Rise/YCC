@@ -1,0 +1,32 @@
+=================
+YCP:PF Build 001
+=================
+
+==Dependancies (Core)==
+n/a
+
+==Project Flux (Core)==
+n/a
+
+==Optional Mods==
+n/a
+
+--Client Only--
+n/a
+
+--Server Only--
+n/a
+
+==Removed==
+n/a
+
+==Configs==
+n/a
+
+==Misc.==
+base .xml added files to ATL, made notes in the .xml to remind taht certain mods needed updateing, and needed to be added to certain areas of the .xml
+
+-- Dev only --
+n/a
+
+This is the initial build of Yogscast Complete Pack: Project Flux. This is a port of Resonant Rise: Project Flux build, to remove PF from RR and make it it's own pack under YCP. There will be no updates to this pack beyond fixing issues to the .xml and configs.
