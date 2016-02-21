@@ -1,4 +1,35 @@
 =================
+YCP:PF Build 002
+=================
+
+==Dependancies (Core)==
+n/a
+
+==Project Flux (Core)==
+n/a
+
+==Optional Mods==
+n/a
+
+--Client Only--
+n/a
+
+--Server Only--
+n/a
+
+==Removed==
+n/a
+
+==Configs==
+n/a
+
+==Misc.==
+continued .xml edits, nearly ready to start testing launcher functionality.
+
+-- Dev only --
+n/a
+
+================
 YCP:PF Build 001
 =================
 
