@@ -168,6 +168,704 @@
 
     <!-- Project-Flux Core -->
 
+        <mod name="ArmorStatusHUD"
+             version="1.28" url="packs/YogscastCompletePack/files/Project_Flux/[1.7.10]ARMORSTATUSHUD-CLIENT-1.28.jar" file="[1.7.10]ARMORSTATUSHUD-CLIENT-1.28.jar" md5="f0da1af3ea5b7797d2742b7a2b874e92" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1114612-/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/armorstatushud?gameCategorySlug=mc-mods&amp;projectID=225564&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=briefcase.speakers%40gmail.com&amp;bn=PP-DonationsBF:btn_" authors="bspkrs" description="Provides a HUD with your equipped armor/item stats." />
+
+        <mod name="bspkrsCore"
+             version="6.16" url="packs/YogscastCompletePack/files/Project_Flux/[1.7.10]bspkrsCore-universal-6.16.jar" file="[1.7.10]bspkrsCore-universal-6.16.jar" md5="e77344bda12bd0b91e01dfbb00a653f0" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1114612-/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/bspkrscore?gameCategorySlug=mc-mods&amp;projectID=59218&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=briefcase.speakers%40gmail.com&amp;bn=PP-DonationsBF:btn_donat" authors="DaftPVF,bspkrs" description="Shared classes used in the mods maintained by bspkrs." />
+
+        <mod name="Damage Indicators"
+             version="3.2.3" url="packs/YogscastCompletePack/files/Project_Flux/[1.7.10]DAMAGEINDICATORSMOD-3.2.3.jar" file="[1.7.10]DAMAGEINDICATORSMOD-3.2.3.jar" md5="4d7172534ef2348a5aa2c4f130d9f57b" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1536685-" authors="rich1051414" description="Displays the damage you inflict on creatures, as well as current health, name and potion effects." />
+
+        <mod name="StatusEffectHUD"
+             version="1.27" url="packs/YogscastCompletePack/files/Project_Flux/[1.7.10]STATUSEFFECTHUD-CLIENT-1.27.jar" file="[1.7.10]STATUSEFFECTHUD-CLIENT-1.27.jar" md5="d3b526e884043c01d5b1d23ca88a8cd4" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1114612-/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/statuseffecthud?gameCategorySlug=mc-mods&amp;projectID=225566&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=briefcase.speakers%40gmail.com&amp;bn=PP-DonationsBF:btn" authors="bspkrs" description="Shows active player effects (potions, etc) without opening your inventory!" />
+
+        <mod name="AE2 Stuff"
+             version="0.4.3.47" url="packs/YogscastCompletePack/files/Project_Flux/AE2STUFF-0.4.3.47-MC1.7.10.jar" file="AE2STUFF-0.4.3.47-MC1.7.10.jar" md5="cbf4c7e56820bb40c91ead8331dfbb32" download="server"
+             type="mods" website="bdew.net" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ae2-stuff?gameCategorySlug=mc-mods&amp;projectID=225194&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif" authors="bdew" description="Various Extensions for Applied Energistics 2" />
+
+        <mod name="Ancient Warfare 2"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/ANCIENTWARFARE-2.4.106-BETA-MC1.7.10-FULL.jar" file="ANCIENTWARFARE-2.4.106-BETA-MC1.7.10-FULL.jar" md5="b941316d430480ea5ee40cc301558734" download="server"
+             type="mods" website="http://www.curseforge.com/projects/224602/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ancient-warfare-2?gameCategorySlug=mc-mods&amp;projectID=224602&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=shadowmage45%40hotmail.com&amp;bn=PP-DonationsBF:btn_d" authors="shadowmage45" description="Research based tech tree.  NPC driven automation and combat.  Template based world-generation (structures)." />
+
+        <mod name="Another One Bites The Dust"
+             version="2.8.1" url="packs/YogscastCompletePack/files/Project_Flux/AOBD-2.8.1.jar" file="AOBD-2.8.1.jar" md5="d452f5fe3d6355f448fc0fae1b2561f6" download="server"
+             type="mods" website="http://www.curseforge.com/projects/221863/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/another-one-bites-the-dust?gameCategorySlug=mc-mods&amp;projectID=221863&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=foka_12%40hotmail.com&amp;bn=PP-DonationsBF:b" authors="ganymedes01" description="AOBD dynamically finds all the ores and ingots added by any mod and makes them processable in IC2, EnderIO, RailCraft, Mekanism, Thermal Expansion, Thaumcraft, UltraTech, Factorization, RandomAdditions, Gany&apos;s Nether, Modular Systems, Hydraulicraft, Tinker&apos;s Construct, SimpleOreGrinder, RotaryCraft, Electrical Age, Aura Cascade, Flaxbeard&apos;s Steampower Mod, Engineer&apos;s Toolbox, and Immersive Engineering machines!" />
+
+        <mod name="AppleCore"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/APPLECORE-MC1.7.10-1.1.0.jar" file="APPLECORE-MC1.7.10-1.1.0.jar" md5="eee9b53b347078639fcb658abd2fdb65" download="server"
+             type="mods" website="http://www.curseforge.com/projects/224472/" authors="squeek502" description="An API for modifying the food and hunger mechanics of Minecraft" />
+
+        <mod name="Applied Energistics 2"
+             version="rv2-stable-10" url="packs/YogscastCompletePack/files/Project_Flux/APPLIEDENERGISTICS2-RV2-STABLE-10.jar" file="APPLIEDENERGISTICS2-RV2-STABLE-10.jar" md5="f7a60fa036240da11da4a739c5c4137d" download="server"
+             type="mods" website="http://ae2.ae-mod.info" authors="AlgorithmX2" description="A Mod about Matter, Energy and using them to conquer the world.." />
+
+        <mod name="Archimedes&apos; Ships"
+             version="1.7.1" url="packs/YogscastCompletePack/files/Project_Flux/ARCHIMEDESSHIPS-1.7.1.jar" file="ARCHIMEDESSHIPS-1.7.1.jar" md5="e81328f9876e69d91a53242be1fc62da" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1857899-archimedes-ships" authors="BalkondeurAlpha" description="Craft and create your own ship... And sail it across the seven seas!" />
+
+        <mod name="Aroma1997Core"
+             version="1.0.2.15" url="packs/YogscastCompletePack/files/Project_Flux/AROMA1997CORE-1.7.10-1.0.2.15.jar" file="AROMA1997CORE-1.7.10-1.0.2.15.jar" md5="da4fff9ca8d16b976c91a41c24e8b685" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1679684-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/aroma1997core?gameCategorySlug=mc-mods&amp;projectID=223735&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=robin_marius%40web.de&amp;bn=PP-DonationsBF:btn_donateCC_L" authors="Aroma1997, Schillaa" description="This is basically a library used by most my other mods." />
+
+        <mod name="Aroma1997&apos;s Dimensional World"
+             version="1.1.0.1" url="packs/YogscastCompletePack/files/Project_Flux/AROMA1997S-DIMENSIONAL-WORLD-1.7.10-1.1.0.1.jar" file="AROMA1997S-DIMENSIONAL-WORLD-1.7.10-1.1.0.1.jar" md5="756e446bbcb0e045ed1907d7f56c91ae" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1679684-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/aroma1997s-dimensional-world?gameCategorySlug=mc-mods&amp;projectID=60092&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=robin_marius%40web.de&amp;bn=PP-DonationsBF:" authors="Aroma1997,Schillaa" description="This mod adds a new Dimension especially for mining. It is pretty much like the overworld, just different. :-)" />
+
+        <mod name="Artifacts"
+             version="1.1.1" url="packs/YogscastCompletePack/files/Project_Flux/ARTIFACTS-1.1.1.jar" file="ARTIFACTS-1.1.1.jar" md5="c4aca3de43cd28b457a94e4f16490238" download="server"
+             type="mods" website="http://tinyurl.com/nx8w53h" authors="Draco18s,Tmtravlr" description="Adds randomly generated magic items to treasure loot generation." />
+
+        <mod name="Artifice"
+             version="1.7.10-1.1.5R-396" url="packs/YogscastCompletePack/files/Project_Flux/ARTIFICE-1.7.10-1.1.5R-396.jar" file="ARTIFICE-1.7.10-1.1.5R-396.jar" md5="ac2a1f2f68271dedbe2e40ce1498aaec" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1860869-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/artifice?gameCategorySlug=mc-mods&amp;projectID=223174&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=shukaro%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:N" authors="Shukaro" description="Practical solutions" />
+
+        <mod name="asielib"
+             version="1.7.10-0.4.2" url="packs/YogscastCompletePack/files/Project_Flux/ASIELIB-1.7.10-0.4.2.jar" file="ASIELIB-1.7.10-0.4.2.jar" md5="75111eca786acd82cc0c410c0b58a714" download="server"
+             type="mods" website="" authors="asiekierka,Vexatos" description="Utilities for asie&apos;s mods" />
+
+        <mod name=""
+             version="0.0.2" url="packs/YogscastCompletePack/files/Project_Flux/ASIETWEAKS-1.7.10-0.0.2.jar" file="ASIETWEAKS-1.7.10-0.0.2.jar" md5="9f47a1cd5d81f77c1d40205fd92c0692" download="server"
+             type="mods" website="" description="" />
+
+        <mod name="AuraCascade"
+             version="1.3" url="packs/YogscastCompletePack/files/Project_Flux/AURACASCADE-486.jar" file="AURACASCADE-486.jar" md5="12b29ef94b3088c62a299f27757a8e45" download="server"
+             type="mods" website="http://www.curseforge.com/projects/227099/" authors="pixlepix,williewillus" description="A magic mod focused on emergent complexity and enabling unique designs" />
+
+        <mod name="Automagy"
+             version="1.7.10-0.25" url="packs/YogscastCompletePack/files/Project_Flux/AUTOMAGY-1.7.10-0.25.jar" file="AUTOMAGY-1.7.10-0.25.jar" md5="931ba8a7fa9b061768e304a71a8a4849" download="server"
+             type="mods" website="http://www.curseforge.com/projects/222153/" authors="Tuhljin (programming, art),Draanor (art)" description="An addon for Thaumcraft 4 focused on providing flexible and interesting tools for automation and logistics, plus a few other fun thaumic gadgets." />
+
+        <mod name="Backpack"
+             version="2.0.1-1.7.x" url="packs/YogscastCompletePack/files/Project_Flux/BACKPACK-2.0.1-1.7.X.jar" file="BACKPACK-2.0.1-1.7.X.jar" md5="22f976e9c4af7c5400ac11f59c87f592" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1492661-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/forge-backpacks?gameCategorySlug=mc-mods&amp;projectID=59143&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=t.werdin%40eydamos.de&amp;bn=PP-DonationsBF:btn_donateCC_" authors="Eydamos" description="Provides the player with multiple, colored backpacks, which each has the space of a normal chest." />
+
+        <mod name="Baubles"
+             version="1.0.1.10" url="packs/YogscastCompletePack/files/Project_Flux/Baubles-1.7.10-1.0.1.10.jar" file="Baubles-1.7.10-1.0.1.10.jar" md5="0e711d6535970f62d4964edaa26f4623" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/2535073-baubles" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/baubles?gameCategorySlug=mc-mods&amp;projectID=227083&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=leon%40imaginet.co.za&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:" authors="Azanor" description="Adding a touch of bling to Minecraft" />
+
+        <mod name="BD Lib"
+             version="1.9.1.97" url="packs/YogscastCompletePack/files/Project_Flux/BDLIB-1.9.1.97-MC1.7.10.jar" file="BDLIB-1.9.1.97-MC1.7.10.jar" md5="a5a8c21c09dfd841f84541750d9e1074" download="server"
+             type="mods" website="bdew.net/mods/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/bdlib?gameCategorySlug=mc-mods&amp;projectID=70496&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonH" authors="bdew" description="A library of generic code for my other mods" />
+
+        <mod name="BiblioCraft"
+             version="1.10.4" url="packs/YogscastCompletePack/files/Project_Flux/BIBLIOCRAFT[V1.10.4][MC1.7.10].jar" file="BIBLIOCRAFT[V1.10.4][MC1.7.10].jar" md5="8ff7b200ed81466e3c5eeeef09c10ffd" download="server"
+             type="mods" website="http://www.bibliocraftmod.com" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/bibliocraft?gameCategorySlug=mc-mods&amp;projectID=228027&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=nuchaz.ipod%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_L" authors="Joseph &apos;Nuchaz&apos; Sinclair" description="BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware, fancy lamps and golden lanterns. Also Tables, enchanted plates, map frames, and seats!" />
+
+        <mod name="BiblioWoods Biomes O&apos;Plenty Edition"
+             version="1.9" url="packs/YogscastCompletePack/files/Project_Flux/BIBLIOWOODS[BIOMESOPLENTY][V1.9].jar" file="BIBLIOWOODS[BIOMESOPLENTY][V1.9].jar" md5="2554960687b369309ee256f30d348207" download="server"
+             type="mods" website="http://www.bibliocraftmod.com" authors="Joseph &apos;Nuchaz&apos; Sinclair" description="Adds support for 16 varietys of wood from Biomes O&apos;Plenty for 8 of the wooden block in BiblioCraft." />
+
+        <mod name="BiblioWoods Forestry Edition"
+             version="1.7" url="packs/YogscastCompletePack/files/Project_Flux/BIBLIOWOODS[FORESTRY][V1.7].jar" file="BIBLIOWOODS[FORESTRY][V1.7].jar" md5="c7f7b06fc31a90fced96ee7e667d8ad7" download="server"
+             type="mods" website="http://www.bibliocraftmod.com" authors="Joseph &apos;Nuchaz&apos; Sinclair" description="Adds support for 24 varietys of wood from Forestry for 8 of the wooden block in BiblioCraft." />
+
+        <mod name="BiblioWoods Natura Edition"
+             version="1.5" url="packs/YogscastCompletePack/files/Project_Flux/BIBLIOWOODS[NATURA][V1.5].jar" file="BIBLIOWOODS[NATURA][V1.5].jar" md5="9f8e1ae378c60af46bcd0e88c59445fa" download="server"
+             type="mods" website="http://www.bibliocraftmod.com" authors="Joseph &apos;Nuchaz&apos; Sinclair" description="Adds support for 13 varietys of wood from Natura for 8 of the wooden block in BiblioCraft." />
+
+        <mod name="Big Reactors"
+             version="0.4.3A" url="packs/YogscastCompletePack/files/Project_Flux/BIGREACTORS-0.4.3A.jar" file="BIGREACTORS-0.4.3A.jar" md5="b1c71b6a64a84f154af2d83bdc0d33bf" download="server"
+             type="mods" website="http://www.big-reactors.com" authors="ErogenousBeef" description="Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) power." />
+
+        <mod name="The BigTrees Mod"
+             version="1.7.2b-forge1060" url="packs/YogscastCompletePack/files/Project_Flux/BIGTREES-172B-FORGE1060.jar" file="BIGTREES-172B-FORGE1060.jar" md5="465917560c53ef73f38ffee25ad7bc59" download="server"
+             type="mods" website="www.minecraftforum.net/topic/782646-" authors="Karob,ThorinStonehelm" description="Adds larger trees to Minecraft, enhancing dimensional complexity and atmophsere." />
+
+        <mod name="Binnie&apos;s Mods"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/BINNIE-MODS-2.0-PRE12.jar" file="BINNIE-MODS-2.0-PRE12.jar" md5="db5729107e8f0e743f64c945c9f2524e" download="server"
+             type="mods" website="http://www.curseforge.com/projects/223525/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/binnies-mods?gameCategorySlug=mc-mods&amp;projectID=223525&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=alexjbinnie%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_" authors="Binnie567" description="Various expansions for Forestry adding new bees and trees" />
+
+        <mod name="Blood Magic: Alchemical Wizardry"
+             version="v1.3.0Beta(1.7.10)" url="packs/YogscastCompletePack/files/Project_Flux/BLOODMAGIC-1.7.10-1.3.3-11.jar" file="BLOODMAGIC-1.7.10-1.3.3-11.jar" md5="65a47fd09177fc5817361df5fe438488" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1899223-" authors="WayofTime" description="Rituals, spells, and more!" />
+
+        <mod name="Botania"
+             version="r1.6-193" url="packs/YogscastCompletePack/files/Project_Flux/BOTANIA R1.6-193.jar" file="BOTANIA R1.6-193.jar" md5="d83216a621fd3b0bd88c21f17d877709" download="server"
+             type="mods" website="http://www.botaniamod.net" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/botania?gameCategorySlug=mc-mods&amp;projectID=225643&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=vasco.lavos%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gi" authors="Vazkii" description="Botania is a mod that adds nature magic to Minecraft." />
+
+        <mod name="Buildcraft"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/BUILDCRAFT-7.0.21.jar" file="BUILDCRAFT-7.0.21.jar" md5="a0a6b90dcf92aa8b70224cddbeee88c8" download="server"
+             type="mods" website="http://www.curseforge.com/projects/61811/" authors="CovertJaguar,buildcraftchildsplay" description="Extending Minecraft with pipes, auto-crafting, quarries, engines and much more!" />
+
+        <mod name="BuildCraft Compat"
+             version="7.0.9" url="packs/YogscastCompletePack/files/Project_Flux/BUILDCRAFT-COMPAT-7.0.11.jar" file="BUILDCRAFT-COMPAT-7.0.11.jar" md5="3d6f9e75aabc9213d7ceee1ae0140d0e" download="server"
+             type="mods" website="http://www.mod-buildcraft.com/" authors="asie,BuildCraft Team" description="Compatibility add-on for BuildCraft" />
+
+        <mod name="Calculator"
+             version="1.7.4" url="packs/YogscastCompletePack/files/Project_Flux/CALCULATOR-1.7.10-1.7.4.jar" file="CALCULATOR-1.7.10-1.7.4.jar" md5="553350d140f84a4560c38778ed1b5eb3" download="server"
+             type="mods" website="http://www.curseforge.com/projects/225104/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/calculator?gameCategorySlug=mc-mods&amp;projectID=225104&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=amandalansdell%40uwclub.net&amp;bn=PP-DonationsBF:btn_donateC" authors="SonarSonic" description="Whoever said Calculators were boring?! Awesome Calculators, crazy items, mind-blowing machines and hundreds of hidden recipes.  Change the way you craft, change the way you play, change the way you think.  This mod is currently still in development and I am welcoming new ideas for additions to the mod.  Thank you for trying the Calculator Mod" />
+
+        <mod name="Carpenter&apos;s Blocks"
+             version="3.3.6" url="packs/YogscastCompletePack/files/Project_Flux/CARPENTERS BLOCKS V3.3.6 - MC 1.7.10.jar" file="CARPENTERS BLOCKS V3.3.6 - MC 1.7.10.jar" md5="e10ec38141819884cecacb4cfa5389a6" download="server"
+             type="mods" website="www.carpentersblocks.com" authors="Mineshopper" description="Adds slopes and a variety of vanilla-inspired blocks that support covers, side covers, overlays, dyes and chiseled patterns." />
+
+        <mod name="ChickenChunks"
+             version="1.3.4.19" url="packs/YogscastCompletePack/files/Project_Flux/CHICKENCHUNKS-1.7.10-1.3.4.19-UNIVERSAL.jar" file="CHICKENCHUNKS-1.7.10-1.3.4.19-UNIVERSAL.jar" md5="5592eda79bd2b52adf1d4bdceaa59b73" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/909223" authors="ChickenBones" description="Advanced chunkloading management  Credits: Sanguine - Texture  Supporters:" />
+
+        <mod name="Chisel 2"
+             version="2.3.10.37" url="packs/YogscastCompletePack/files/Project_Flux/CHISEL2-2.3.10.37.jar" file="CHISEL2-2.3.10.37.jar" md5="bbcab533ebad16e4e9ed0823c87274a0" download="server"
+             type="mods" website="http://www.minecraftforum.net/forums/thread/1294901" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/chisel-2?gameCategorySlug=mc-mods&amp;projectID=225236&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=bcord%40me.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHos" authors="AUTOMATIC_MAIDEN,Pokefenn,Cricket,tterrag" description="A mod that adds in many fancy blocks for decoration, which are crafted utilising the Chisel." />
+
+        <mod name="Chisel Facades"
+             version="1.7.10-2.11-cricket" url="packs/YogscastCompletePack/files/Project_Flux/CHISELFACADES-1.7.10-2.11-CRICKET.jar" file="CHISELFACADES-1.7.10-2.11-CRICKET.jar" md5="991d3ecd2ddfac7ed015dbf67b18ba81" download="server"
+             type="mods" website="http://www.curseforge.com/projects/222784/" authors="Choonster" description="Adds Chisel&apos;s blocks as Buildcraft Facades." />
+
+        <mod name="Chisel Tones"
+             version="1.7.10-1.0-1" url="packs/YogscastCompletePack/files/Project_Flux/CHISELTONES-1.7.10-1.0-1.jar" file="CHISELTONES-1.7.10-1.0-1.jar" md5="b3d17943aa6469fe6129547b447ad2de" download="server"
+             type="mods" website="http://tehnut.info/" authors="TehNut" description="Chisel compatibility for Ztones" />
+
+        <mod name="Clienthax&apos;s ChocoCraft"
+             version="4.1.4" url="packs/YogscastCompletePack/files/Project_Flux/CHOCOCRAFT-4.1.5.jar" file="CHOCOCRAFT-4.1.5.jar" md5="4b09d87f1d87df32b7a1394383927d4f" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1119809-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/chococraft?gameCategorySlug=mc-mods&amp;projectID=225280&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=clienthax%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.g" authors="Torojima &lt;al-s@gmx.de&gt;, Micdoodle" description="Adds a mountable, breedable mob and supporting items." />
+
+        <mod name=""
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/CODECHICKENCORE-1.7.10-1.0.7.46-UNIVERSAL.jar" file="CODECHICKENCORE-1.7.10-1.0.7.46-UNIVERSAL.jar" md5="8419dad3d2a93e11f0cedbe0868281f2" download="server"
+             type="mods" website="" description="" />
+
+        <mod name=""
+             version="1.1.3.138" url="packs/YogscastCompletePack/files/Project_Flux/CodeChickenLib-1.7.10-1.1.3.138-universal.jar" file="CodeChickenLib-1.7.10-1.1.3.138-universal.jar" md5="07fd1a4d8337cca200d871e25426705d" download="server"
+             type="mods" website="" description="" />
+
+        <mod name="CoFH Core"
+             version="3.0.3" url="packs/YogscastCompletePack/files/Project_Flux/COFHCORE-[1.7.10]3.0.3-303.jar" file="COFHCORE-[1.7.10]3.0.3-303.jar" md5="2ffdab52f8536f02f34a9d9230ca24dd" download="server"
+             type="mods" website="http://www.teamcofh.com" authors="Team CoFH" description="Required for all CoFH Mods. Also provides some customization options for Minecraft." />
+
+        <mod name="CoFHLib"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/COFHLIB-[1.7.10]1.0.3-175.jar" file="COFHLIB-[1.7.10]1.0.3-175.jar" md5="56d4419ee75a25839de12732735dc1a5" download="server"
+             type="mods" website="http://www.curseforge.com/projects/220333/" authors="TeamCoFH,Jadedcat,KingLemming,skyboy026,ZeldoKavira" description="Library/API required by all CoFH mods. It&apos;s also meant as a resource for other modders!" />
+
+        <mod name=""
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/commons-codec-1.9.jar" file="commons-codec-1.9.jar" md5="75615356605c8128013da9e3ac62a249" download="server"
+             type="mods" website="" description="" />
+
+        <mod name=""
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/commons-compress-1.8.1.jar" file="commons-compress-1.8.1.jar" md5="d862e30ff6b5d78264677dcd6507abb8" download="server"
+             type="mods" website="" description="" />
+
+        <mod name="Compact Machines"
+             version="1.7.10-1.20" url="packs/YogscastCompletePack/files/Project_Flux/COMPACTMACHINES-1.7.10-1.20.jar" file="COMPACTMACHINES-1.7.10-1.20.jar" md5="485f86099180e0a15a099d3b92af313c" download="server"
+             type="mods" website="https://github.com/thraaawn/CompactMachines" authors="Davenonymous" description="Allows you to fit many machines inside a single block" />
+
+        <mod name="ComputerCraft"
+             version="1.74" url="packs/YogscastCompletePack/files/Project_Flux/COMPUTERCRAFT1.74.jar" file="COMPUTERCRAFT1.74.jar" md5="4fbca55ae45a65015e1037c2cfce7e1c" download="server"
+             type="mods" website="http://www.computercraft.info" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/computercraft?gameCategorySlug=mc-mods&amp;projectID=67504&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=dratcliffe%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_L" authors="Daniel Ratcliffe,Aaron Mills" description="ComputerCraft adds Computers, Programming and Robotics to Minecraft." />
+
+        <mod name="Computronics"
+             version="1.7.10-1.5.5" url="packs/YogscastCompletePack/files/Project_Flux/COMPUTRONICS-1.7.10-1.5.5.jar" file="COMPUTRONICS-1.7.10-1.5.5.jar" md5="1c655e2b4e33e1e8393a338809123986" download="server"
+             type="mods" website="" authors="asiekierka,Techokami,Vexatos" description="A ComputerCraft/OpenComputers/NedoComputers addon mod." />
+
+        <mod name="CraftHeraldry"
+             version="1.1.3" url="packs/YogscastCompletePack/files/Project_Flux/CRAFTHERALDRY 1.1.3.jar" file="CRAFTHERALDRY 1.1.3.jar" md5="db03a6365cd98d59862908ba868e1134" download="server"
+             type="mods" website="http://www.curseforge.com/projects/231450/" authors="Vazkii" description="A mod that allows, as the name implies, to craft Heraldry in minecraft." />
+
+        <mod name="Dark Menagerie"
+             version="1.7.10-beta-2.0" url="packs/YogscastCompletePack/files/Project_Flux/DARK_MENAGERIE-1.7.10-BETA-2.0.jar" file="DARK_MENAGERIE-1.7.10-BETA-2.0.jar" md5="67a9d43c29cb5901b3abc3761b86e077" download="server"
+             type="mods" website="http://www.curseforge.com/projects/224039/" authors="RWTema" description="A bunch of exotic creatrues that would very much love to kill you" />
+
+        <mod name="Decocraft"
+             version="2.0.2_1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/DECOCRAFT-2.0.2_1.7.10.jar" file="DECOCRAFT-2.0.2_1.7.10.jar" md5="3c3ff8f8cbf51fab950cf23b4280c2a5" download="server"
+             type="mods" website="http://minecraft.curseforge.com/mc-mods/79616-decocraft2" authors="RazzleberryFox" description="Adds 500+ models to decorate your Minecraft world." />
+
+        <mod name="Dense Ores"
+             version="1.6.2" url="packs/YogscastCompletePack/files/Project_Flux/DENSEORES-1.6.2.jar" file="DENSEORES-1.6.2.jar" md5="aab8a8aad4385de5367987d64317562c" download="server"
+             type="mods" website="http://www.curseforge.com/projects/224942/" authors="RWTema" description="Adds new ore variants to the game" />
+
+        <mod name="Dimensional Anchors"
+             version="59.0.3" url="packs/YogscastCompletePack/files/Project_Flux/DIMENSIONAL-ANCHOR-59.0.3.jar" file="DIMENSIONAL-ANCHOR-59.0.3.jar" md5="65669c1fab43ae1d3ef41a659fdd530c" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1001131-110-immibiss-mods-smp/" authors="immibis" description="Yet another chunkloader mod." />
+
+        <mod name="Draconic Evolution"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/DRACONIC-EVOLUTION-1.7.10-1.0.1C.jar" file="DRACONIC-EVOLUTION-1.7.10-1.0.1C.jar" md5="c51fd0233f5ff3a030b36394bdf31c9f" download="server"
+             type="mods" website="http://www.curseforge.com/projects/223565/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/draconic-evolution?gameCategorySlug=mc-mods&amp;projectID=223565&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=brandon4261%40gmail.com&amp;bn=PP-DonationsBF:btn_don" authors="brandon3055" description="Draconic Evolution is a mod that adds some extremely expensive high tier items to the game. " />
+
+        <mod name="EiraIRC"
+             version="2.8.270" url="packs/YogscastCompletePack/files/Project_Flux/EIRAIRC-MC1.7.10-2.8.270.jar" file="EIRAIRC-MC1.7.10-2.8.270.jar" md5="e8534e568dafa0aa260263a2acdcd111" download="server"
+             type="mods" website="http://blay09.net" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=HSFYLPEWBZSHY&amp;item_name=EiraIRC+(from+curseforge.com)&amp;cmd=_s-xclick" authors="blay09" description="An IRC Connector that works both on clients and servers independently, with some community-friendly extra features." />
+
+        <mod name="Enchiridion 2"
+             version="2.0.2a" url="packs/YogscastCompletePack/files/Project_Flux/ENCHIRIDION 2-1.7.10-2.0.2A.jar" file="ENCHIRIDION 2-1.7.10-2.0.2A.jar" md5="07c7f8d0b757090fba9c5fea30cb79b9" download="server"
+             type="mods" website="http://enchiridion.joshiejack.co.uk" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/enchiridion?gameCategorySlug=mc-mods&amp;projectID=76612&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=joshjackwildman%40gmail.com&amp;bn=PP-DonationsBF:btn_donateC" authors="joshie" description="Custom books in minecraft!" />
+
+        <mod name="Ender Compass"
+             version="1.1" url="packs/YogscastCompletePack/files/Project_Flux/ENDERCOMPASS-1.7.10-1.1.jar" file="ENDERCOMPASS-1.7.10-1.1.jar" md5="ad74031787f24df3eaa4bdadfdbeed4a" download="server"
+             type="mods" website="https://github.com/MrIbby/EnderCompass" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ender-compass?gameCategorySlug=mc-mods&amp;projectID=223106&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=bui.gabe%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG" authors="MrIbby" description="The ender compass is an item that leads to strongholds." />
+
+        <mod name="Ender IO"
+             version="1.7.10-2.2.8.381" url="packs/YogscastCompletePack/files/Project_Flux/ENDERIO-1.7.10-2.2.8.381.jar" file="ENDERIO-1.7.10-2.2.8.381.jar" md5="08a0ec390dab975047b85dc23224ffb9" download="server"
+             type="mods" website="http://enderio.com" authors="CrazyPants,tterrag" description="Compact conduits, painted things and access to your stuff through an eye of ender." />
+
+        <mod name="EnderStorage"
+             version="1.4.7.36" url="packs/YogscastCompletePack/files/Project_Flux/ENDERSTORAGE-1.7.10-1.4.7.36-UNIVERSAL.jar" file="ENDERSTORAGE-1.7.10-1.4.7.36-UNIVERSAL.jar" md5="8bbdecbf02735dbab742fc278c9725fc" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/909223" authors="ChickenBones" description="Stores your stuff in the END!  Credits: Ecu - original idea, design,         chest and pouch texture     Rosethorns - tank model     Soaryn - tank texture  Supporters: Blkdragon112" />
+
+        <mod name="Ender Zoo"
+             version="1.7.10-1.0.11.28" url="packs/YogscastCompletePack/files/Project_Flux/ENDERZOO-1.7.10-1.0.11.28.jar" file="ENDERZOO-1.7.10-1.0.11.28.jar" md5="d0b411ec33ed350c619ee8ab86a131f4" download="server"
+             type="mods" website="http://enderio.com" authors="crazypants" description="More Mobs" />
+
+        <mod name="EnhancedPortals"
+             version="3.0.12" url="packs/YogscastCompletePack/files/Project_Flux/ENHANCEDPORTALS_1.7.10-UNIVERSAL-3.0.12.jar" file="ENHANCEDPORTALS_1.7.10-UNIVERSAL-3.0.12.jar" md5="5d8e509aa54c79785e7bf4868d2ec88f" download="server"
+             type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1292751" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/enhanced-portals-3?gameCategorySlug=mc-mods&amp;projectID=225921&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=shadeddimensions%40googlemail.com&amp;bn=PP-Donations" authors="Alz454" description="An advanced technological portal teleportation system" />
+
+        <mod name="Extra Cells 2"
+             version="2.2.73" url="packs/YogscastCompletePack/files/Project_Flux/EXTRACELLS-1.7.10-2.2.73B129.jar" file="EXTRACELLS-1.7.10-2.2.73B129.jar" md5="e427f7638c3a47395c4d7ea838812a09" download="server"
+             type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x" authors="M3gaFr3ak" description="Adds new ME Storage Cells and some other cool stuff to AE 2." />
+
+        <mod name="ExtraTiC"
+             version="1.4.5" url="packs/YogscastCompletePack/files/Project_Flux/EXTRATIC-1.7.10-1.4.5.jar" file="EXTRATIC-1.7.10-1.4.5.jar" md5="27de96be132c64e0b9ec3b832915df6b" download="server"
+             type="mods" website="http://www.curseforge.com/projects/72728/" authors="Glassmaker" description="An Addon-Mod adds cross compatibility for Tinker&apos;s Construct" />
+
+        <mod name="Extra Utilities"
+             version="1.2.6" url="packs/YogscastCompletePack/files/Project_Flux/EXTRAUTILITIES-1.2.6.jar" file="EXTRAUTILITIES-1.2.6.jar" md5="b160eaa6e13737f31a7d25b80fc17547" download="server"
+             type="mods" website="http://www.curseforge.com/projects/225561/" authors="RWTema" description="Just a bunch of useful things" />
+
+        <mod name="FastCraft"
+             version="1.21" url="packs/YogscastCompletePack/files/Project_Flux/FASTCRAFT-1.21.jar" file="FASTCRAFT-1.21.jar" md5="f1f33a007d6a78d68e6bb217a6ffdb9e" download="server"
+             type="mods" website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=10820" authors="Player" description="FastCraft optimizes MineCraft in various ways, visit the homepage for further details and support." />
+
+        <mod name="Flaxbeard&apos;s Steam Power"
+             version="@
+               version@" url="packs/YogscastCompletePack/files/Project_Flux/FLAXBEARDSSTEAMPOWER-1.7.10-0.28.7.jar" file="FLAXBEARDSSTEAMPOWER-1.7.10-0.28.7.jar" md5="58316287f57d7baf5caf04bad76f000e" download="server"
+             type="mods" website="https://github.com/Flaxbeard/Flaxbeards-Steam-Power" authors="SatanicSanta,xbony2,dmillerw,Flaxbeard,Zenith" description="A mod based around steam power and steampunk tech." />
+
+        <mod name="Fluxed-Crystals 2"
+             version="1.0.1" url="packs/YogscastCompletePack/files/Project_Flux/FLUXED-CRYSTALS2-1.0.1.jar" file="FLUXED-CRYSTALS2-1.0.1.jar" md5="542961585488ed9845fe236768f05fa4" download="server"
+             type="mods" website="http://www.curseforge.com/projects/231971/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/fluxed-crystals-2?gameCategorySlug=mc-mods&amp;projectID=231971&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=jluboff8%40gmail.com&amp;bn=PP-DonationsBF:btn_donateC" authors="Jaredlll08, Darkbyte, JHarb52207" description="Powered Crystal Farming!" />
+
+        <mod name="Forbidden Magic"
+             version="1.7.10-0.57" url="packs/YogscastCompletePack/files/Project_Flux/FORBIDDEN MAGIC-1.7.10-0.57.jar" file="FORBIDDEN MAGIC-1.7.10-0.57.jar" md5="000a789abce14d2d710b147f5beba5af" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/2305054-/" authors="SpitefulFox" description="Forbidden Magic is an addon to add many dark-themed things to Thaumcraft." />
+
+        <mod name="Forestry for Minecraft"
+             version="3.6.3.20" url="packs/YogscastCompletePack/files/Project_Flux/FORESTRY_1.7.10-3.6.3.20.jar" file="FORESTRY_1.7.10-3.6.3.20.jar" md5="30da4536707ee4d3fc021fe37cf91f57" download="server"
+             type="mods" website="http://forestry.sengir.net/" authors="SirSengir" description="Trees, bees and more." />
+
+        <mod name="Forge Multipart"
+             version="1.2.0.344" url="packs/YogscastCompletePack/files/Project_Flux/ForgeMultipart-1.7.10-1.2.0.344-universal.jar" file="ForgeMultipart-1.7.10-1.2.0.344-universal.jar" md5="cd28e9cd1a4b019fe196c95d12be0c8e" download="server"
+             type="mods" website="https://github.com/Chicken-Bones/ForgeMultipart" authors="ChickenBones" description="Open source library for facilitation of multiple functional parts in the one block space." />
+
+        <mod name="Fossils and Archeology Revival"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/FOSSILS_ARCHEOLOGY_REVIVAL-1.7.10_BUILD-7.2.jar" file="FOSSILS_ARCHEOLOGY_REVIVAL-1.7.10_BUILD-7.2.jar" md5="21831eaee7c71fe303401958ea93b180" download="server"
+             type="mods" website="http://www.curseforge.com/projects/223908/" authors="ox35ec,alex1the1666,iLexiconn,tyranno66" description="Adding dinosaurs and archeology into Minecraft!" />
+
+        <mod name="Funky Locomotion"
+             version="beta-5c" url="packs/YogscastCompletePack/files/Project_Flux/FUNKY-LOCOMOTION-1.7.10-BETA-5C.jar" file="FUNKY-LOCOMOTION-1.7.10-BETA-5C.jar" md5="45ecd2ab6744af115d38cf877be05e66" download="server"
+             type="mods" website="http://www.curseforge.com/projects/224190/" authors="RWTema" description="The world in a grove" />
+
+        <mod name="Garden Stuff"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/GARDENSTUFF-1.7.10-1.6.3.jar" file="GARDENSTUFF-1.7.10-1.6.3.jar" md5="0509a44aed58851b9b7a66adb55ae6a8" download="server"
+             type="mods" website="http://www.curseforge.com/projects/225903/" authors="jaquadro" description="Make your gardens and landscaping beautiful with multi-part plants, decorative planters, and more." />
+
+        <mod name="GenDustry"
+             version="1.5.2.107" url="packs/YogscastCompletePack/files/Project_Flux/GENDUSTRY-1.5.2.107-MC1.7.10.jar" file="GENDUSTRY-1.5.2.107-MC1.7.10.jar" md5="ed9e0e5d6ab4ec33c84edafd0e0fdd5d" download="server"
+             type="mods" website="bdew.net/mods/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/gendustry?gameCategorySlug=mc-mods&amp;projectID=70492&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:" authors="bdew" description="Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon)" />
+
+        <mod name="Advanced Generators"
+             version="0.9.17.102" url="packs/YogscastCompletePack/files/Project_Flux/GENERATORS-0.9.17.102-MC1.7.10.jar" file="GENERATORS-0.9.17.102-MC1.7.10.jar" md5="10b2a0af0689bf7c150bf877fe9f1c01" download="server"
+             type="mods" website="http://bdew.net/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/advanced-generators?gameCategorySlug=mc-mods&amp;projectID=223622&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donat" authors="bdew" description="Freeform Multiblock generators that produce MJ, RF and EU" />
+
+        <mod name="Greg&apos;s Lighting"
+             version="1.11.1-mc1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/GREGSLIGHTING-1.11.1-MC1.7.10.jar" file="GREGSLIGHTING-1.11.1-MC1.7.10.jar" md5="2e059f579dbb2f1ee193a50a8a2c70f4" download="server"
+             type="mods" website="http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/GregsLighting/" authors="Greg Ewing" description="Powerful lights for lighting up large spaces." />
+
+        <mod name="Grimoire of Gaia 3"
+             version="1.1.1" url="packs/YogscastCompletePack/files/Project_Flux/GRIMOIREOFGAIA3-1.7.10-1.1.1.jar" file="GRIMOIREOFGAIA3-1.7.10-1.1.1.jar" md5="0a7186ffb2782d363f028ee93a5259bc" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1355291-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/grimoire-of-gaia?gameCategorySlug=mc-mods&amp;projectID=228948&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=mcsilentine%40gmail.com&amp;bn=PP-DonationsBF:btn_donat" authors="Silentine" description="Adds mobs, monsters and monster girls." />
+
+        <mod name="Guide-API"
+             version="1.7.10-1.0.1-20" url="packs/YogscastCompletePack/files/Project_Flux/GUIDE-API-1.7.10-1.0.1-20.jar" file="GUIDE-API-1.7.10-1.0.1-20.jar" md5="272bc0a7317e2888ce8a9531b83e607d" download="server"
+             type="mods" website="http://www.curseforge.com/projects/228832/" authors="Tombenpotter,TehNut" description="Simple mod guide creation." />
+
+        <mod name="Hardcore Ender Expansion"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/HARDCOREENDEREXPANSION  MC-1.7.10  V1.8.2.jar" file="HARDCOREENDEREXPANSION  MC-1.7.10  V1.8.2.jar" md5="1afc8fa6ee36bb7a3326b1bc75175260" download="server"
+             type="mods" website="http://www.curseforge.com/projects/228015/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/hardcore-ender-expansion?gameCategorySlug=mc-mods&amp;projectID=228015&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=chylex%40fo2.cz&amp;bn=PP-DonationsBF:btn_donat" authors="chylex" description="Overhauls the End with many new areas to explore, bosses to fight and rewards to gain." />
+
+        <mod name="Immersive Engineering"
+             version="0.5.2" url="packs/YogscastCompletePack/files/Project_Flux/IMMERSIVEENGINEERING-0.5.2.jar" file="IMMERSIVEENGINEERING-0.5.2.jar" md5="b2084a57690cc95a7fd5be757f3fe68f" download="server"
+             type="mods" website="http://www.curseforge.com/projects/231951/" authors="BluSunrize,Damien A.W. Hazard" description="A retro-futuristic tech mod!" />
+
+        <mod name="Immibis Core"
+             version="59.1.0" url="packs/YogscastCompletePack/files/Project_Flux/IMMIBIS-CORE-59.1.0.jar" file="IMMIBIS-CORE-59.1.0.jar" md5="635dff4efabbc3c62d3c287313bca956" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1001131-110-immibiss-mods-smp/" authors="immibis" description="" />
+
+        <mod name="Immibis&apos;s Peripherals"
+             version="59.0.2" url="packs/YogscastCompletePack/files/Project_Flux/IMMIBIS-PERIPHERALS-59.0.2.jar" file="IMMIBIS-PERIPHERALS-59.0.2.jar" md5="4b2a941cdf5e31a55a4e8581835536ce" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1001131-110-immibiss-mods-smp/" authors="immibis" description="Adds some useful and neat peripherals" />
+
+        <mod name=""
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/INDUSTRIALCRAFT-2-2.2.736-EXPERIMENTAL-API.jar" file="INDUSTRIALCRAFT-2-2.2.736-EXPERIMENTAL-API.jar" md5="a2990486c7e7f05fe34ffddfcb7cd096" download="server"
+             type="mods" website="" description="" />
+
+        <mod name="InGame Info XML"
+             version="2.8.1.80" url="packs/YogscastCompletePack/files/Project_Flux/INGAMEINFOXML-1.7.10-2.8.1.80-UNIVERSAL.jar" file="INGAMEINFOXML-1.7.10-2.8.1.80-UNIVERSAL.jar" md5="1eb22773ee25ee305ae49b21b8339941" download="server"
+             type="mods" website="http://mc.lunatri.us/" authors="Lunatrius" description="Display extra information on top of your ingame screen." />
+
+        <mod name="INpureCore"
+             version="1.0" url="packs/YogscastCompletePack/files/Project_Flux/INPURECORE-[1.7.10]1.0.0B9-62.jar" file="INPURECORE-[1.7.10]1.0.0B9-62.jar" md5="89c7b3835cd2bdba7d8d054d75c7460c" download="server"
+             type="mods" website="http://www.curseforge.com/projects/223792/" authors="INpureProjects,denoflions" description="Core mod for all INpure mods" />
+
+        <mod name="Inventory Tweaks"
+             version="1.59-dev-156-af3bc68" url="packs/YogscastCompletePack/files/Project_Flux/INVENTORYTWEAKS-1.59-DEV-156.jar" file="INVENTORYTWEAKS-1.59-DEV-156.jar" md5="a4e24dcb44dfc7d32c44841f45495a19" download="server"
+             type="mods" website="https://github.com/Kobata/inventory-tweaks" authors="Jimeo Wan,Kobata" description="Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items." />
+
+        <mod name="Iridium Mod"
+             version="1.0.1" url="packs/YogscastCompletePack/files/Project_Flux/IRIDIUM MOD-1.0.2.jar" file="IRIDIUM MOD-1.0.2.jar" md5="efe856b03ec38b9a70b1d21735f8f1c8" download="server"
+             type="mods" website="" authors="ganymedes01" description="A simple mod that adds Iridium Ore" />
+
+        <mod name="Iron Chest"
+             version="6.0.62.742" url="packs/YogscastCompletePack/files/Project_Flux/IRONCHEST-1.7.10-6.0.62.742-UNIVERSAL.jar" file="IRONCHEST-1.7.10-6.0.62.742-UNIVERSAL.jar" md5="48d942594459c437ce8e8648ca42a7b9" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/981855-" authors="cpw" description="New chests with larger sizes, with in-place upgrade items. The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest" />
+
+        <mod name="IvToolkit"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/IVTOOLKIT-1.2.jar" file="IVTOOLKIT-1.2.jar" md5="db4535698a2b9db60741c0ac0f7baae6" download="server"
+             type="mods" website="http://www.curseforge.com/projects/224535/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ivtoolkit?gameCategorySlug=mc-mods&amp;projectID=224535&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=lukastenbrink%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_L" authors="Ivorforce" description="Versatile mod framework" />
+
+        <mod name="JABBA"
+             version="1.2.1_1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/JABBA-1.2.1_1.7.10.jar" file="JABBA-1.2.1_1.7.10.jar" md5="9d8788d8cfac57caf07be3eb74eae34c" download="server"
+             type="mods" website="http://mobiusstrip.eu/wiki/Jabba" authors="ProfMobius,Taelnia" description="Moar barrels  The Jabba team would like to thank the Academy for this award... oh wait... *cough* erm... Credits to neptunepink for the original barrel idea, Q and his community for the name, special thanks to skyboy for rendering assistance and the DSU, and the many people whom have made modded MC such an awesome thing to be a part of." />
+
+        <mod name="Java 7 Checker"
+             version="1.0" url="packs/YogscastCompletePack/files/Project_Flux/JAVA7CHECKER  MC-1.7.10  V1.1.jar" file="JAVA7CHECKER  MC-1.7.10  V1.1.jar" md5="df320acb38beec3cf0a2e6b535811d8f" download="server"
+             type="mods" website="http://www.curseforge.com/projects/226991/" authors="chylex" description="If you see this description inside Minecraft, then you&apos;re fine!" />
+
+        <mod name="libsandstone"
+             version="1.0.0" url="packs/YogscastCompletePack/files/Project_Flux/LibSandstone-1.0.0.jar" file="LibSandstone-1.0.0.jar" md5="1ab495f90923a2d0c67541d1e88ec32f" download="server"
+             type="mods" website="http://www.curseforge.com/projects/224828/" authors="x3n0ph0b3,TheMike" description="Sandstone, the foundation for pyramids. Another modding framework." />
+
+        <mod name=""
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/LOGISTICSPIPES-0.9.1.15.jar" file="LOGISTICSPIPES-0.9.1.15.jar" md5="c7763ec2287419a568484b67cc14eb88" download="server"
+             type="mods" website="" description="" />
+
+        <mod name="LunatriusCore"
+             version="1.1.2.21" url="packs/YogscastCompletePack/files/Project_Flux/LUNATRIUSCORE-1.7.10-1.1.2.21-UNIVERSAL.jar" file="LUNATRIUSCORE-1.7.10-1.1.2.21-UNIVERSAL.jar" md5="435b2890f90cc256e0045eb559512eaf" download="server"
+             type="mods" website="http://mc.lunatri.us/" authors="Lunatrius" description="A collection of utilities for Lunatrius&apos; mods." />
+
+        <mod name="Magic Bees"
+             version="1.7.10-2.3.2" url="packs/YogscastCompletePack/files/Project_Flux/MAGICBEES-1.7.10-2.3.2.jar" file="MAGICBEES-1.7.10-2.3.2.jar" md5="4abb8aff2addb52d26d9199e2e0f6ae4" download="server"
+             type="mods" website="http://bit.ly/XFDvLY" authors="MysteriousAges" description="Magic themed bee expansion for Forestry. TC4, Botania, EE3, AM 2, TE 3" />
+
+        <mod name="MalisisCore"
+             version="1.7.10-0.12.2" url="packs/YogscastCompletePack/files/Project_Flux/MALISISCORE-1.7.10-0.12.2.jar" file="MALISISCORE-1.7.10-0.12.2.jar" md5="627c9d308135d923649ddb46044dc838" download="server"
+             type="mods" website="http://github.com/Ordinastie/MalisisCore" authors="Ordinastie,PaleoCrafter" description="MalisisCore is a framework dedicated to simplify many processes required during a mod development." />
+
+        <mod name="Malisis&apos; Doors"
+             version="1.7.10-1.8.2" url="packs/YogscastCompletePack/files/Project_Flux/MALISISDOORS-1.7.10-1.8.2.jar" file="MALISISDOORS-1.7.10-1.8.2.jar" md5="14a6a00d51cd388659c01cdc2f26d151" download="server"
+             type="mods" website="http://github.com/ordinastie" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/malisisdoors?gameCategorySlug=mc-mods&amp;projectID=223891&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=ordinastie%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC" authors="Ordinastie" description="Better doors!" />
+
+        <mod name="Mantle"
+             version="0.3.2.jenkins184" url="packs/YogscastCompletePack/files/Project_Flux/MANTLE-1.7.10-0.3.2.jar" file="MANTLE-1.7.10-0.3.2.jar" md5="3f360f0fb92cfb252235fe99ddfc7495" download="server"
+             type="mods" website="https://github.com/SlimeKnights/Mantle" authors="mDiyo,Sunstrike,progWML6" description="Shared code for Slime Knights mods and others." />
+
+        <mod name="Mekanism"
+             version="8.1.7" url="packs/YogscastCompletePack/files/Project_Flux/MEKANISM-1.7.10-8.1.7.252.jar" file="MEKANISM-1.7.10-8.1.7.252.jar" md5="685c5a2e36468415436968a653946a03" download="server"
+             type="mods" website="http://www.curseforge.com/projects/238550/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/mekanism?gameCategorySlug=mc-mods&amp;projectID=238550&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=stefanmariusvasile9577%40gmail.com&amp;bn=PP-DonationsBF:btn_do" authors="aidancbrady" description="Energy, Armor, Tools, Weapons, Machines, Magic." />
+
+        <mod name="MekanismGenerators"
+             version="8.1.7" url="packs/YogscastCompletePack/files/Project_Flux/MEKANISMGENERATORS-1.7.10-8.1.7.252.jar" file="MEKANISMGENERATORS-1.7.10-8.1.7.252.jar" md5="8126b450eb48801940a021958f1c03df" download="server"
+             type="mods" website="" authors="aidancbrady" description="Generators module of Mekanism." />
+
+        <mod name="MekanismTools"
+             version="8.1.7" url="packs/YogscastCompletePack/files/Project_Flux/MEKANISMTOOLS-1.7.10-8.1.7.252.jar" file="MEKANISMTOOLS-1.7.10-8.1.7.252.jar" md5="4e8a035ca80c95dd677f541da84917ae" download="server"
+             type="mods" website="" authors="aidancbrady" description="Tools module for Mekanism." />
+
+        <mod name="Metallurgy 4"
+             version="4.0.8" url="packs/YogscastCompletePack/files/Project_Flux/METALLURGY-1.7.10-4.0.8.97.jar" file="METALLURGY-1.7.10-4.0.8.97.jar" md5="741b4e74a161945c11b8c8cff52e0c68" download="server"
+             type="mods" website="http://www.curseforge.com/projects/59641/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/metallurgy?gameCategorySlug=mc-mods&amp;projectID=59641&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=Shadowclaimer2%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_" authors="Team Metallurgy" description="Metallurgy" />
+
+        <mod name="Metallurgy Core"
+             version="4.0.4" url="packs/YogscastCompletePack/files/Project_Flux/METALLURGYCORE-1.7.10-4.0.4.18.jar" file="METALLURGYCORE-1.7.10-4.0.4.18.jar" md5="ed57a0378a38d39b210f8077c69f38e1" download="server"
+             type="mods" website="http://www.curseforge.com/projects/78640/" authors="Team Metallurgy" description="Metallurgy Core" />
+
+        <mod name="Minefactory Reloaded"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/MINEFACTORYRELOADED-[1.7.10]2.8.0-104.jar" file="MINEFACTORYRELOADED-[1.7.10]2.8.0-104.jar" md5="51f38281ef847b479f38aa5fe087be4a" download="server"
+             type="mods" website="http://www.curseforge.com/projects/66672/" authors="skyboy026" description="MFR aims to automate a number of tasks that previously would be difficult, boring, or work-intensive." />
+
+        <mod name="MineTweaker 3"
+             version="1.7.10-3.0.9C" url="packs/YogscastCompletePack/files/Project_Flux/MINETWEAKER3-1.7.10-3.0.9C.jar" file="MINETWEAKER3-1.7.10-3.0.9C.jar" md5="fa05f1671f4cce65c9497c81e9212cca" download="server"
+             type="mods" website="http://minetweaker3.powerofbytes.com" authors="Stan Hebben" description="Customize your minecraft experience!" />
+
+        <mod name="MobiusCore"
+             version="1.2.5_1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/MOBIUSCORE-1.2.5_1.7.10.jar" file="MOBIUSCORE-1.2.5_1.7.10.jar" md5="29990acae6a30d35057380222be87294" download="server"
+             type="mods" website="http://www.curseforge.com/projects/76734/" authors="ProfMobius" description="Core mod used for Opis" />
+
+        <mod name="Mod Tweaker 2"
+             version="0.8.3" url="packs/YogscastCompletePack/files/Project_Flux/MODTWEAKER-2-0.8.3.jar" file="MODTWEAKER-2-0.8.3.jar" md5="08f74a61bb35e9423e2f80568e8b3c94" download="server"
+             type="mods" website="http://www.curseforge.com/projects/220954/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/modtweaker?gameCategorySlug=mc-mods&amp;projectID=220954&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=jluboff8%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gi" authors="Jaredlll08" description="ModTweaker is an addon for MineTweaker 3." />
+
+        <mod name="More Chisels"
+             version="1.7.10-1.0-20" url="packs/YogscastCompletePack/files/Project_Flux/MORECHISELS-1.7.10-1.0-20.jar" file="MORECHISELS-1.7.10-1.0-20.jar" md5="64d31dc47d70ea74b8a51d20ec7a1a8f" download="server"
+             type="mods" website="http://tehnut.info/" authors="TehNut" description="More chisels for Chisel 2" />
+
+        <mod name="Mouse Tweaks"
+             version="2.4.4" url="packs/YogscastCompletePack/files/Project_Flux/MOUSETWEAKS-2.4.4-MC1.7.10.jar" file="MOUSETWEAKS-2.4.4-MC1.7.10.jar" md5="d4968eb0b513066313259fcd80bb8eb0" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/1518185-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/mouse-tweaks?gameCategorySlug=mc-mods&amp;projectID=60089&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=yalterz%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gi" authors="YaLTeR" description="A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons." />
+
+        <mod name="MrTJPCore"
+             version="1.0.8.16" url="packs/YogscastCompletePack/files/Project_Flux/MrTJPCore-1.0.8.16-universal.jar" file="MrTJPCore-1.0.8.16-universal.jar" md5="3a7947a41103bff7f553088a7a1e2706" download="server"
+             type="mods" website="..." authors="MrTJP" description="Core libs and utilities" />
+
+        <mod name="Natura"
+             version="1.7.10-92.8a1150f" url="packs/YogscastCompletePack/files/Project_Flux/NATURA-1.7.10-2.2.0.1.jar" file="NATURA-1.7.10-2.2.0.1.jar" md5="ed9a7044d963b7e5ce7ca52ec628bd11" download="server"
+             type="mods" website="www.minecraftforum.net/topic/1753754-natura/" authors="mDiyo,Slime Knights" description="Heyo, Redwood trees! Chop them all day long!" />
+
+        <mod name="NEI Addons"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/NEIADDONS-1.12.11.36-MC1.7.10.jar" file="NEIADDONS-1.12.11.36-MC1.7.10.jar" md5="ffe6d67f665e2f2f8735a1b824d219d0" download="server"
+             type="mods" website="http://www.curseforge.com/projects/63352/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/nei-addons?gameCategorySlug=mc-mods&amp;projectID=63352&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif" authors="bdew" description="Addons for Not Enough Items for various mods" />
+
+        <mod name="NEI Integration"
+             version="1.0.12" url="packs/YogscastCompletePack/files/Project_Flux/NEIINTEGRATION-MC1.7.10-1.0.12.jar" file="NEIINTEGRATION-MC1.7.10-1.0.12.jar" md5="ce52827985c6b803dbe1e19e14cb0317" download="server"
+             type="mods" website="http://www.curseforge.com/projects/225251/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/nei-integration?gameCategorySlug=mc-mods&amp;projectID=225251&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=tonbro96%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_" authors="tonius11" description="NEI handlers for all of the mods, one at a time." />
+
+        <mod name="Nether Ores"
+             version="2.3.0" url="packs/YogscastCompletePack/files/Project_Flux/NETHERORES-[1.7.10]2.3.0-12.jar" file="NETHERORES-[1.7.10]2.3.0-12.jar" md5="c8b5264bbf6670923e021fd3d6c047f7" download="server"
+             type="mods" website="http://minecraft.curseforge.com/mc-mods/netherores/" authors="PowerCrystals,TehKrush,AtomicStryker,skyboy026" description="Introduces mineable yet dangerous ores to the Nether" />
+
+        <mod name=""
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/NOTENOUGHITEMS-1.7.10-1.0.5.111-UNIVERSAL.jar" file="NOTENOUGHITEMS-1.7.10-1.0.5.111-UNIVERSAL.jar" md5="2a1ad0bb450ad389ba515bf95d24a1d9" download="server"
+             type="mods" website="" description="" />
+
+        <mod name="NotEnoughKEys"
+             version="1.7.10-1.0.0b29" url="packs/YogscastCompletePack/files/Project_Flux/NOTENOUGHKEYS-1.7.10-1.0.0B29.jar" file="NOTENOUGHKEYS-1.7.10-1.0.0B29.jar" md5="8551e6a7c73f975b433ac6efc1855afb" download="server"
+             type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2277165-notenoughkeys" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/notenoughkeys?gameCategorySlug=mc-mods&amp;projectID=224614&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=the.country.gamer%40gmail.com&amp;bn=PP-DonationsBF:btn_do" authors="dmodoomsirius, okushama, Parker8283, TheTemportalist" description="Upddated
+             versionof Okushama&apos;s NotEnoughKeys. Sorts the Controls gui system and adds optional modifiers (SHIFT, CTRL, ALT) to keys." />
+
+        <mod name="Not Enough Resources"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/NOTENOUGHRESOURCES-1.7.10-0.1.0.95.jar" file="NOTENOUGHRESOURCES-1.7.10-0.1.0.95.jar" md5="d5418e1f914cddc8b10e1f8536036daa" download="server"
+             type="mods" website="http://www.curseforge.com/projects/225815/" authors="hilburn,way2muchnoise" description="Adds Resources and Mob Drops to NEI" />
+
+        <mod name="OpenBlocks"
+             version="1.4.3" url="packs/YogscastCompletePack/files/Project_Flux/OPENBLOCKS-1.7.10-1.4.3.jar" file="OPENBLOCKS-1.7.10-1.4.3.jar" md5="c017f648dce3f421a6af2350dc84ed17" download="server"
+             type="mods" website="http://www.openperipheral.info" authors="Mikee,NeverCast,boq,Lyqyd" description="All the things you never thought you will ever need" />
+
+        <mod name="OpenComputers"
+             version="1.5.13.28" url="packs/YogscastCompletePack/files/Project_Flux/OPENCOMPUTERS-MC1.7.10-1.5.13.28-UNIVERSAL.jar" file="OPENCOMPUTERS-MC1.7.10-1.5.13.28-UNIVERSAL.jar" md5="34f42d83b333ebab42ecee6585f7322b" download="server"
+             type="mods" website="http://oc.cil.li/" authors="Florian &apos;Sangar&apos; Nuecke,Johannes &apos;Lord Joda&apos; Lohrer,Everyone who contributed to the mod on Github - thank you!" description="This mod adds modular computers and robots that can be programmed in Lua." />
+
+        <mod name="OpenEye"
+             version="0.6" url="packs/YogscastCompletePack/files/Project_Flux/OPENEYE-0.6-1.7.10-SNAPSHOT-141.jar" file="OPENEYE-0.6-1.7.10-SNAPSHOT-141.jar" md5="e378fa4f496a7e3fa13413b0457476c3" download="server"
+             type="mods" website="http://openmods.info" authors="boq,Mikee" description="User protection, error management and analytics" />
+
+        <mod name="OpenMods"
+             version="0.7.3" url="packs/YogscastCompletePack/files/Project_Flux/OPENMODSLIB-1.7.10-0.7.3.jar" file="OPENMODSLIB-1.7.10-0.7.3.jar" md5="4d43d65162ef049813193f8521e6ba81" download="server"
+             type="mods" website="http://openmods.info/" authors="Mikee,NeverCast,boq,Lyqyd" description="Boring stuff for all that silly Open* mods" />
+
+        <mod name="OpenPeripheralAddons"
+             version="0.3.1" url="packs/YogscastCompletePack/files/Project_Flux/OPENPERIPHERALADDONS-1.7.10-0.3.1.jar" file="OPENPERIPHERALADDONS-1.7.10-0.3.1.jar" md5="085a9d18fa1c129d5a7a44d52488a5cb" download="server"
+             type="mods" website="http://www.openperipheral.info" authors="Mikeemoo,cybcaoyibo,SinZ,theoriginalbit,Foone" description="Random CC peripherals" />
+
+        <mod name="OpenPeripheralCore"
+             version="1.1.1" url="packs/YogscastCompletePack/files/Project_Flux/OPENPERIPHERALCORE-1.7.10-1.1.1.jar" file="OPENPERIPHERALCORE-1.7.10-1.1.1.jar" md5="1adf6892bbf45093934bad13636a16d3" download="server"
+             type="mods" website="http://www.openmods.info" authors="Mikeemoo,boq,theoriginalbit,Foone,SinZ" description="Converts many blocks into ComputerCraft peripherals!" />
+
+        <mod name="OpenPeripheralIntegration"
+             version="0.2.2" url="packs/YogscastCompletePack/files/Project_Flux/OPENPERIPHERALINTEGRATION-1.7.10-0.2.2.jar" file="OPENPERIPHERALINTEGRATION-1.7.10-0.2.2.jar" md5="b6019035229b9c3b5073d4c3268a03d1" download="server"
+             type="mods" website="http://www.openmods.info" authors="Mikeemoo,boq,theoriginalbit,Foone,SinZ" description="Converts many blocks into ComputerCraft peripherals!" />
+
+        <mod name="Opis"
+             version="1.2.5_1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/OPIS-1.2.5_1.7.10.jar" file="OPIS-1.2.5_1.7.10.jar" md5="82e98ab306d952f3371a514333c226b4" download="server"
+             type="mods" website="http://www.curseforge.com/projects/73832/" authors="ProfMobius" description="Contextual server profiler" />
+
+        <mod name="Pam&apos;s HarvestCraft"
+             version="1.7.10i" url="packs/YogscastCompletePack/files/Project_Flux/PAMS HARVESTCRAFT 1.7.10I.jar" file="PAMS HARVESTCRAFT 1.7.10I.jar" md5="28872e2c16dd63ec2feb5bf738b39153" download="server"
+             type="mods" website="http://minecraft.curseforge.com/members/MatrexsVigil/projects" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/pams-harvestcraft?gameCategorySlug=mc-mods&amp;projectID=221857&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=worldofro%40gmail.com&amp;bn=PP-DonationsBF:btn_donate" authors="Pamela Collins" description="An absolutely huge farming and food mod." />
+
+        <mod name="PneumaticCraft"
+             version="1.9.2-88" url="packs/YogscastCompletePack/files/Project_Flux/PNEUMATICCRAFT-1.7.10-1.9.2-88-UNIVERSAL.jar" file="PNEUMATICCRAFT-1.7.10-1.9.2-88-UNIVERSAL.jar" md5="a7f8a3fab5eea558dbde89893e531572" download="server"
+             type="mods" website="www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/pneumaticcraft?gameCategorySlug=mc-mods&amp;projectID=224125&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_do" authors="MineMaarten" description="A technical mod all about pneumatics!" />
+
+        <mod name="Project Blue"
+             version="1.1.4-mc1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/PROJECTBLUE-1.1.4-MC1.7.10.jar" file="PROJECTBLUE-1.1.4-MC1.7.10.jar" md5="522f43362f443d48a243f4db06cfda46" download="server"
+             type="mods" website="http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/ProjectBlue/" authors="Greg Ewing" description="Additional blocks and items for Project Red." />
+
+        <mod name="ProjectRed"
+             version="4.6.2.82" url="packs/YogscastCompletePack/files/Project_Flux/PROJECTRED-1.7.10-4.6.2.82-BASE.jar" file="PROJECTRED-1.7.10-4.6.2.82-BASE.jar" md5="3e3024a5cba7f6c439737560ce30c719" download="server"
+             type="mods" website="http://projectredwiki.com" authors="MrTJP,ChickenBones" description="Redstone. The way it was meant to be. Built against Forge 10.13.3.1399-1.7.10.    Supporters:   Jacob M   " />
+
+        <mod name="ProjectRed-Compatibility"
+             version="4.6.2.82" url="packs/YogscastCompletePack/files/Project_Flux/PROJECTRED-1.7.10-4.6.2.82-COMPAT.jar" file="PROJECTRED-1.7.10-4.6.2.82-COMPAT.jar" md5="0645b78548d30bf7b69d0ce47f23d403" download="server"
+             type="mods" website="http://www.curseforge.com/projects/229050/" authors="Mr_TJP" description="Redstone enthusiasts&apos; one-stop-shop. Compatibility module for Project Red." />
+
+        <mod name="ProjectRed-Transmission"
+             version="4.6.2.82" url="packs/YogscastCompletePack/files/Project_Flux/PROJECTRED-1.7.10-4.6.2.82-INTEGRATION.jar" file="PROJECTRED-1.7.10-4.6.2.82-INTEGRATION.jar" md5="0ab65f94946e8d3ebf983e8a2fcd4cc4" download="server"
+             type="mods" website="http://www.curseforge.com/projects/229045/" authors="Mr_TJP" description="Redstone enthusiasts&apos; one-stop-shop. Integration and Transmission modules for Project Red." />
+
+        <mod name="ProjectRed-Illumination"
+             version="4.6.2.82" url="packs/YogscastCompletePack/files/Project_Flux/PROJECTRED-1.7.10-4.6.2.82-LIGHTING.jar" file="PROJECTRED-1.7.10-4.6.2.82-LIGHTING.jar" md5="ccecec105229ec021ef124abe4376485" download="server"
+             type="mods" website="http://www.curseforge.com/projects/229046/" authors="Mr_TJP" description="Redstone enthusiasts&apos; one-stop-shop. Illumination module for Project Red." />
+
+        <mod name="ProjectRed-Expansion"
+             version="4.6.2.82" url="packs/YogscastCompletePack/files/Project_Flux/PROJECTRED-1.7.10-4.6.2.82-MECHANICAL_BETA.jar" file="PROJECTRED-1.7.10-4.6.2.82-MECHANICAL_BETA.jar" md5="f708e6e132943170318a38f104d6936b" download="server"
+             type="mods" website="http://www.curseforge.com/projects/229048/" authors="Mr_TJP" description="Redstone enthusiasts&apos; one-stop-shop. Expansion and Transportation modules for Project Red." />
+
+        <mod name="ProjectRed-Exploration"
+             version="4.6.2.82" url="packs/YogscastCompletePack/files/Project_Flux/PROJECTRED-1.7.10-4.6.2.82-WORLD.jar" file="PROJECTRED-1.7.10-4.6.2.82-WORLD.jar" md5="507f3580883f5f9befe988dbe31abd77" download="server"
+             type="mods" website="http://www.curseforge.com/projects/229049/" authors="Mr_TJP" description="Redstone enthusiasts&apos; one-stop-shop. Exploration module for Project Red." />
+
+        <mod name="QuiverBow"
+             version="b100" url="packs/YogscastCompletePack/files/Project_Flux/QUIVERBOW_1.7.10_B100.zip" file="QUIVERBOW_1.7.10_B100.zip" md5="0c9d01b0d2bec0791d8d6beffb984886" download="server"
+             type="mods" website="http://wildwestscifi.net/coding/9889" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/quiverbow?gameCategorySlug=mc-mods&amp;projectID=73811&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=Paypal%40wildwestscifi.net&amp;bn=PP-DonationsBF:btn_donateCC_L" authors="Domochevsky" description="Ranged weaponry, as thought up by Steve." />
+
+        <mod name="Railcraft"
+             version="9.6.1.0" url="packs/YogscastCompletePack/files/Project_Flux/RAILCRAFT_1.7.10-9.6.1.0.jar" file="RAILCRAFT_1.7.10-9.6.1.0.jar" md5="c55d4208858a4eea65006d41859ee959" download="server"
+             type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/railcraft?gameCategorySlug=mc-mods&amp;projectID=51195&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG." authors="CovertJaguar" description="Redefine your rails" />
+
+        <mod name="Random Things"
+             version="2.2.4" url="packs/YogscastCompletePack/files/Project_Flux/RANDOMTHINGS-2.2.4.jar" file="RANDOMTHINGS-2.2.4.jar" md5="45c948a0954aa78bb5c23801aa5d9eb7" download="server"
+             type="mods" website="http://minecraft.curseforge.com/mc-mods/59816-random-things" authors="Lumien" description="Random Things packed into one Mod." />
+
+        <mod name="Recurrent Complex"
+             version="0.9.6.2" url="packs/YogscastCompletePack/files/Project_Flux/RECURRENTCOMPLEX-0.9.6.2.jar" file="RECURRENTCOMPLEX-0.9.6.2.jar" md5="4c1be4a085a2e265f91ecb6962990615" download="server"
+             type="mods" website="http://www.curseforge.com/projects/223150/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/recurrent-complex?gameCategorySlug=mc-mods&amp;projectID=223150&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=lukastenbrink%40gmail.com&amp;bn=PP-DonationsBF:btn_do" authors="Ivorius" description="Adds structures to worldgen, handles exporting and importing structures, and provides build tools." />
+
+        <mod name="Redstone Armory"
+             version="1.7.10-1.1-22" url="packs/YogscastCompletePack/files/Project_Flux/REDSTONEARMORY-1.7.10-1.1-22-UNIVERSAL.jar" file="REDSTONEARMORY-1.7.10-1.1-22-UNIVERSAL.jar" md5="de2ebbe36d0119d2b675ce49f544a9b5" download="server"
+             type="mods" website="http://tehnut.info/" authors="TehNut, Tombenpotter" description="Enhancing the Flux Revolution!" />
+
+        <mod name="Redstone Arsenal"
+             version="1.1.1" url="packs/YogscastCompletePack/files/Project_Flux/REDSTONEARSENAL-[1.7.10]1.1.1-89.jar" file="REDSTONEARSENAL-[1.7.10]1.1.1-89.jar" md5="ee83d9f95974bf942eabc7f649d792dd" download="server"
+             type="mods" website="http://www.teamcofh.com" authors="Team CoFH" description="Behold the Redstone (Flux) Revolution - provides Flux-Infused Tools and Armor!" />
+
+        <mod name="Refined Relocation"
+             version="1.0.8b" url="packs/YogscastCompletePack/files/Project_Flux/REFINEDRELOCATION-1.7.10-1.0.8B.jar" file="REFINEDRELOCATION-1.7.10-1.0.8B.jar" md5="b94cc69fedb83b9210f70b36f94debb5" download="server"
+             type="mods" website="http://www.curseforge.com/projects/75811/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/refined-relocation?gameCategorySlug=mc-mods&amp;projectID=75811&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=iDynious%40gmail.com&amp;bn=PP-DonationsBF:btn_donateC" authors="Dynious,dmillerw" description="Filter, sort and relocate!" />
+
+        <mod name="Router Reborn"
+             version="1.7.10-1.2.0.24-universal" url="packs/YogscastCompletePack/files/Project_Flux/ROUTERREBORN-1.7.10-1.2.0.24-UNIVERSAL.jar" file="ROUTERREBORN-1.7.10-1.2.0.24-UNIVERSAL.jar" md5="fa611b8d5d000caa2fa12dc50f7c87f2" download="server"
+             type="mods" website="http://www.curseforge.com/projects/223808/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/router-reborn?gameCategorySlug=mc-mods&amp;projectID=223808&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=zyberwax%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_" authors="Tom E. Voll" description="Bringing the router back in 1.7.x" />
+
+        <mod name="Simply Jetpacks"
+             version="1.4.1" url="packs/YogscastCompletePack/files/Project_Flux/SIMPLYJETPACKS-MC1.7.10-1.4.1.jar" file="SIMPLYJETPACKS-MC1.7.10-1.4.1.jar" md5="fbe4e1c060af92cb22345e3a7929a01a" download="server"
+             type="mods" website="http://www.curseforge.com/projects/79325/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/simply-jetpacks?gameCategorySlug=mc-mods&amp;projectID=79325&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=tonbro96%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_L" authors="tonius11" description="Redstone Flux jetpacks and more" />
+
+        <mod name="Soul Shards Reborn"
+             version="rc3" url="packs/YogscastCompletePack/files/Project_Flux/SSR-RC3.jar" file="SSR-RC3.jar" md5="1cdc8d89b42c02dfdf135c75bc6d6b4d" download="server"
+             type="mods" website="" authors="Moze_Intel" description="Complete remake of the old Soul Shards." />
+
+        <mod name="Statues"
+             version="2.1.4" url="packs/YogscastCompletePack/files/Project_Flux/STATUES-1.7.10-2.1.4.jar" file="STATUES-1.7.10-2.1.4.jar" md5="083a94e77bd69a0ac454771becb4c7e0" download="server"
+             type="mods" website="" authors="AUTOMATIC_MAIDEN,asiekierka" description="Adds a hammer used to craft Statues." />
+
+        <mod name="Steve&apos;s Addons"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/STEVESADDONS-1.7.10-0.10.13.jar" file="STEVESADDONS-1.7.10-0.10.13.jar" md5="54e6fb11a2636546e5f8045d53ffc70f" download="server"
+             type="mods" website="http://www.curseforge.com/projects/226067/" authors="hilburn" description="Adds additional functionality to Steve&apos;s Factory Manager" />
+
+        <mod name="Steve&apos;s Carts 2"
+             version="2.0.0.b18" url="packs/YogscastCompletePack/files/Project_Flux/STEVESCARTS2.0.0.B18.jar" file="STEVESCARTS2.0.0.B18.jar" md5="0beb610ca0d65a1419fffabe7feb9dc2" download="server"
+             type="mods" website="http://www.curseforge.com/projects/228625/" authors="Vswe" description="A carttastic mod adding a near infinite number of carts possible to the game, through the creation of  modular carts." />
+
+        <mod name="Steve&apos;s Factory Manager"
+             version="A93" url="packs/YogscastCompletePack/files/Project_Flux/STEVESFACTORYMANAGERA93.jar" file="STEVESFACTORYMANAGERA93.jar" md5="825819de2d82cf7e9118353c0fc821b6" download="server"
+             type="mods" website="" authors="Vswe" description="Steve&apos;s Factory Manager is a mod which allows you to set up systems that moves and manages items between inventories and machines" />
+
+        <mod name="Steve&apos;s Workshop"
+             version="0.5.1" url="packs/YogscastCompletePack/files/Project_Flux/STEVESWORKSHOP-0.5.1.jar" file="STEVESWORKSHOP-0.5.1.jar" md5="466afe4bd2f08913d45a181e0635235a" download="server"
+             type="mods" website="http://www.curseforge.com/projects/223173/" authors="Vswe" description="Adds a modular production table for crafting and smelting" />
+
+        <mod name="Super Crafting Frame"
+             version="1.7.10.3" url="packs/YogscastCompletePack/files/Project_Flux/SUPERCRAFTINGFRAME-1.7.10.3.jar" file="SUPERCRAFTINGFRAME-1.7.10.3.jar" md5="81086777be7b1eca8a88b5c284935162" download="server"
+             type="mods" website="http://www.curseforge.com/projects/73926/" authors="Edgar_Allen" description="Super Crafting Frame is a simple mod that helps with repetitive crafting tasks during early game." />
+
+        <mod name="TC Node Tracker"
+             version="1.7.10-1.1.1" url="packs/YogscastCompletePack/files/Project_Flux/TCNODETRACKER-1.7.10-1.1.1.jar" file="TCNODETRACKER-1.7.10-1.1.1.jar" md5="715995688d04cad910fcf2db583e7553" download="server"
+             type="mods" website="http://www.curseforge.com/projects/227328/" authors="Dyonovan" description="Tracks scanned nodes for Thaumcraft" />
+
+        <mod name="Tinkers&apos; Construct"
+             version="1.8.5" url="packs/YogscastCompletePack/files/Project_Flux/TCONSTRUCT-1.7.10-1.8.5.jar" file="TCONSTRUCT-1.7.10-1.8.5.jar" md5="4441f16762302887c5052f6c20ad84e2" download="server"
+             type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2218638-tinkers-construct" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=GKGVLK75MTPUN&amp;item_name=Tinkers+Construct+(from+curseforge.com)&amp;cmd=_s-xclick" authors="mDiyo,fuj1n,ProgWML6,Sunstrike,Pillbox,boni" description="A little of this, a little of that, a lot of tinkering, and a lot of tools" />
+
+        <mod name="Technomancy"
+             version="0.11.1" url="packs/YogscastCompletePack/files/Project_Flux/TECHNOMANCY - 0.11.1 - 1.7.10.jar" file="TECHNOMANCY - 0.11.1 - 1.7.10.jar" md5="289f902c057e602018d32e6a29b5572a" download="server"
+             type="mods" website="http://goo.gl/3q163x" authors="Democretes,theflogat,Mordenkainen" description="Science and magic. What could go wrong?" />
+
+        <mod name="Thaumcraft"
+             version="1.7.10-4.2.3.5" url="packs/YogscastCompletePack/files/Project_Flux/THAUMCRAFT-1.7.10-4.2.3.5.jar" file="THAUMCRAFT-1.7.10-4.2.3.5.jar" md5="17f2e60dabd4961c9a3a2dad3ad6528a" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/2011841-thaumcraft" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/thaumcraft?gameCategorySlug=mc-mods&amp;projectID=223628&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=lhb%40sun.ac.za&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:Non" authors="Azanor" description="Adding a touch of magic to Minecraft" />
+
+        <mod name="Thaumcraft NEI Plugin"
+             version="1.7.10-1.7a" url="packs/YogscastCompletePack/files/Project_Flux/THAUMCRAFTNEIPLUGIN-1.7.10-1.7A.jar" file="THAUMCRAFTNEIPLUGIN-1.7.10-1.7A.jar" md5="f71559fa64c1996b03e796b660914637" download="server"
+             type="mods" website="http://www.curseforge.com/projects/225095/" authors="DjGiannuzz" description="NEI Integration for Thaumcraft 4." />
+
+        <mod name="Thaumic Energistics"
+             version="0.8.10.7" url="packs/YogscastCompletePack/files/Project_Flux/THAUMICENERGISTICS-0.8.10.7.jar" file="THAUMICENERGISTICS-0.8.10.7.jar" md5="414a1340e4e6105d80848c1ef718db10" download="server"
+             type="mods" website="http://www.curseforge.com/projects/223666/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/thaumic-energistics?gameCategorySlug=mc-mods&amp;projectID=223666&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=Nividica%40gmail.com&amp;bn=PP-DonationsBF:btn_donat" authors="Nividica" description="The digital age could use some magic" />
+
+        <mod name="Thaumic Tinkerer"
+             version="2.5-1.7.10-507" url="packs/YogscastCompletePack/files/Project_Flux/THAUMICTINKERER-2.5-1.7.10-507.jar" file="THAUMICTINKERER-2.5-1.7.10-507.jar" md5="f23e6dfd316342053d8c95b1200bcbd6" download="server"
+             type="mods" website="minecraftforum.net/topic/1813058-" authors="pixlepix,nekosune" description="An addon to Thaumcraft 4, implementing new content. This mod is a spiritual successor to Elemental Tinkerer. Researches that come from this mod are prefixed by [TT]." />
+
+        <mod name="Erebus"
+             version="0.2a" url="packs/YogscastCompletePack/files/Project_Flux/THEEREBUS-0.2A.jar" file="THEEREBUS-0.2A.jar" md5="63f54f228fd1aa3f1456e4d89b2d693e" download="server"
+             type="mods" website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2244153" authors="Mod designed by Dylan4Ever" description="Discover a world ruled by insects, the Erebus is a place to explore, mine and build-Programmers: chylex, ganymedes01, vadis365, SMEZ1234-Modelers: vadis365, DylanGK-Sound designers: voog2" />
+
+        <mod name="Thermal Dynamics"
+             version="1.1.0" url="packs/YogscastCompletePack/files/Project_Flux/THERMALDYNAMICS-[1.7.10]1.1.0-161.jar" file="THERMALDYNAMICS-[1.7.10]1.1.0-161.jar" md5="501fae0a34ae3d686c3256c68c671f31" download="server"
+             type="mods" website="http://www.teamcofh.com" authors="Team CoFH" description="Thermal meets Dynamic - provides options for transporting items, fluids, and Redstone Flux!" />
+
+        <mod name="Thermal Expansion"
+             version="4.0.3B1" url="packs/YogscastCompletePack/files/Project_Flux/THERMALEXPANSION-[1.7.10]4.0.3B1-218.jar" file="THERMALEXPANSION-[1.7.10]4.0.3B1-218.jar" md5="91e0bf4dd569c9f71e873186b51b5712" download="server"
+             type="mods" website="http://www.teamcofh.com" authors="Team CoFH" description="Expanding Minecraft Thermally - provides new options for automation and processing!" />
+
+        <mod name="Thermal Foundation"
+             version="1.2.0" url="packs/YogscastCompletePack/files/Project_Flux/THERMALFOUNDATION-[1.7.10]1.2.0-102.jar" file="THERMALFOUNDATION-[1.7.10]1.2.0-102.jar" md5="8c79648de65ca6caecfb0cbb58ae81e2" download="server"
+             type="mods" website="http://www.teamcofh.com" authors="Team CoFH" description="The foundation of a Thermally enhanced world!" />
+
+        <mod name="Thermal Recycling"
+             version="0.3.9.7" url="packs/YogscastCompletePack/files/Project_Flux/THERMALRECYCLING-1.7.10-0.3.9.7.jar" file="THERMALRECYCLING-1.7.10-0.3.9.7.jar" md5="6edbfc9eea725c656d41733ee762feab" download="server"
+             type="mods" website="https://github.com/OreCruncher/ThermalRecycling/wiki" authors="OreCruncher" description="Thermal Expansion 4.x add-on that provides machines to use the STUFF that is collected" />
+
+        <mod name="Thermal Smeltery"
+             version="1.7.10-1.2.1" url="packs/YogscastCompletePack/files/Project_Flux/THERMALSMELTERY-1.7.10-1.2.1.jar" file="THERMALSMELTERY-1.7.10-1.2.1.jar" md5="4e3ac57d2812c342554f65ed562985a7" download="server"
+             type="mods" website="http://www.curseforge.com/projects/227661/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/thermal-smeltery?gameCategorySlug=mc-mods&amp;projectID=227661&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=ericsplanet%40mac.com&amp;bn=PP-DonationsBF:btn_donateC" authors="Drullkus" description="Thermal Smeltery Description" />
+
+        <mod name="Tinkers&apos; Mechworks"
+             version="0.2.14.100" url="packs/YogscastCompletePack/files/Project_Flux/TMECHWORKS-1.7.10-0.2.14.100.jar" file="TMECHWORKS-1.7.10-0.2.14.100.jar" md5="6712a665abfd927fe06b34fa9de338cc" download="server"
+             type="mods" website="http://www.curseforge.com/projects/78057/" authors="mDiyo,fuj1n,ProgWML6,Sunstrike,Pillbox" description="Mechanically inclined Tinkers&apos; Construct expansion" />
+
+        <mod name="Translocator"
+             version="1.1.2.15" url="packs/YogscastCompletePack/files/Project_Flux/TRANSLOCATOR-1.7.10-1.1.2.15-UNIVERSAL.jar" file="TRANSLOCATOR-1.7.10-1.1.2.15-UNIVERSAL.jar" md5="8eee76817934d0d79ca75448f3cd1229" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/909223" authors="ChickenBones" description="Translocates stuff!    Credits: MouseCop - Textures  Supporters:" />
+
+        <mod name="ttCore"
+             version="MC1.7.10-0.1.1-78" url="packs/YogscastCompletePack/files/Project_Flux/TTCORE-MC1.7.10-0.1.1-78.jar" file="TTCORE-MC1.7.10-0.1.1-78.jar" md5="3ed381e0849b13843690e92299b7a90a" download="server"
+             type="mods" website="http://ci.tterrag.com" authors="tterrag" description="Core mod for tterrag&apos;s mods." />
+
+        <mod name="The Twilight Forest"
+             version="2.3.7" url="packs/YogscastCompletePack/files/Project_Flux/TWILIGHTFOREST-1.7.10-2.3.7.jar" file="TWILIGHTFOREST-1.7.10-2.3.7.jar" md5="7602ffcdcd8ee2f012caeed1e4d22655" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/561673-" authors="Benimatic (Ben Mazur)" description="An enchanted forest dimension." />
+
+        <mod name="Waila"
+             version="1.5.10_1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/WAILA-1.5.10_1.7.10.jar" file="WAILA-1.5.10_1.7.10.jar" md5="eeb36775188e70faa1c5ecd84f80076c" download="server"
+             type="mods" website="http://www.curseforge.com/projects/73488/" authors="ProfMobius" description="All your data are belong to us." />
+
+        <mod name="Waila Harvestability"
+             version="1.1.2" url="packs/YogscastCompletePack/files/Project_Flux/WAILAHARVESTABILITY-MC1.7.X-1.1.2.jar" file="WAILAHARVESTABILITY-MC1.7.X-1.1.2.jar" md5="44f3356029a6a17e4bf3bd9313e9cbe4" download="server"
+             type="mods" website="http://www.curseforge.com/projects/79287/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/waila-harvestability?gameCategorySlug=mc-mods&amp;projectID=79287&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=squeek502%40hotmail.com&amp;bn=PP-DonationsBF:btn_do" authors="squeek" description="An add-on for Waila that adds information about the harvestability of what you are looking at" />
+
+        <mod name="WAILA Plugins"
+             version="MC1.7.10-0.0.1-15" url="packs/YogscastCompletePack/files/Project_Flux/WAILAPLUGINS-MC1.7.10-0.0.1-15.jar" file="WAILAPLUGINS-MC1.7.10-0.0.1-15.jar" md5="66303a0304d44f27492d2cb3d71c517c" download="server"
+             type="mods" website="http://ci.tterrag.com" authors="tterrag" description="WAILA plugins for various mods, such as Blood Magic, Magical Crops, and Forestry!" />
+
+        <mod name="What Are We Looking At"
+             version="1.3.0" url="packs/YogscastCompletePack/files/Project_Flux/WAWLA-1.3.0-1.7.10.jar" file="WAWLA-1.3.0-1.7.10.jar" md5="962844fce8a7e3189257d7e7b5ca8a4f" download="server"
+             type="mods" website="http://www.darkhax.net/wawla.html" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/wawla-what-are-we-looking-at?gameCategorySlug=mc-mods&amp;projectID=224712&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=darklime%40live.ca&amp;bn=PP-DonationsBF:bt" authors="Darkhax" description="Greatly expands upon the functionality of Waila by providing many new forms of information along with bridging support between Waila and many other popular minecraft mods." />
+
+        <mod name="Witchery"
+             version="1.7.10-0.24.1" url="packs/YogscastCompletePack/files/Project_Flux/WITCHERY-1.7.10-0.24.1.jar" file="WITCHERY-1.7.10-0.24.1.jar" md5="22096b8e462fa5cca3a6c8054116d4fc" download="server"
+             type="mods" website="http://sites.google.com/site/witcherymod/" authors="Emoniph" description="Bringing witchcraft and nature magic to Minecraft: cauldrons, broomsticks, ritual circles, magical brews, a bit of necromancy and voodoo for good measure; all topped off with a fetching pointy hat. Oh, and watch out for the demons..." />
+
+        <mod name="WR-CBE-Universal"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/WR-CBE-1.7.10-1.4.1.9-UNIVERSAL.jar" file="WR-CBE-1.7.10-1.4.1.9-UNIVERSAL.jar" md5="c3477cd84ce90a85cce8ba8bb7b93809" download="server"
+             type="mods" website="http://www.curseforge.com/projects/229314/" authors="chicken_bones" description="The combined WR-CBE mod" />
+
+        <mod name="Ztones"
+             version="2.2" url="packs/YogscastCompletePack/files/Project_Flux/ZTONES-1.7.10-2.2.1.jar" file="ZTONES-1.7.10-2.2.1.jar" md5="4f517be3ad447c4f41742fa7e1ae959f" download="server"
+             type="mods" website="http://www.curseforge.com/projects/224369/" authors="riciJak" description="Decorative Blocks" />
+
         <!-- Add Project Flux Core mods here -->
 
     <!-- Optional Mod Set -->
@@ -187,7 +885,7 @@
         Gany's Surface
         Headcrumbs
         Infernal Mobs
-        Quiver Mob
+        Quiver Mob (update)
         Veinminer
 
 
@@ -195,7 +893,8 @@
 
     <!-- Server and Client Only Mods (Alphabetized and sorted under Parents) -->
 
-        <mod name="== Server Mods ==" version="RR3" colour="Mek"
+        <mod name="== Server Mods =="
+             version="RR3" colour="Mek"
              url="packs/ResonantRise/files/config-switches/zone00.zip" file="zone00.zip" md5="433f4c3cb1da539bcf65ba13de2f0ce4" download="server"
              type="extract" extractto="root" optional="yes" recommended="no" client="no"
              website="http://resonant-rise.com"
@@ -224,8 +923,15 @@
         Status Effect HUD
         TC Node Tracker
         Thaumcraft NEI Plugin
-        TiC Tooltips
-        Voxel Map
+
+
+        <mod name="TiC Tooltips"
+             version="1.2.4" url="packs/YogscastCompletePack/files/Project_Flux/TICTOOLTIPS-MC1.7.10-1.2.4.jar" file="TICTOOLTIPS-MC1.7.10-1.2.4.jar" md5="46aec5e72a6b43ffa06550b330a9a751" download="server"
+             type="mods" website="http://www.minecraftforum.net/topic/2509840-" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/tic-tooltips?gameCategorySlug=mc-mods&amp;projectID=76845&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=squeek502%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_L" authors="squeek" description="A simple client-side add-on for Tinkers&apos; Construct that adds relevant stats to all tool part tooltips." />
+
+        <mod name="VoxelMap"
+             version="" url="packs/YogscastCompletePack/files/Project_Flux/MOD_VOXELMAP_1.5.13_FOR_1.7.10.litemod" file="MOD_VOXELMAP_1.5.13_FOR_1.7.10.litemod" md5="96b6c6ca0cc2cefe890f5a5731416110" download="server"
+             type="mods" website="http://www.curseforge.com/projects/225179/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/voxelmap?gameCategorySlug=mc-mods&amp;projectID=225179&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=MamiyaOtaru%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.g" authors="Mamiya0taru" description="Minimap and Worldmap.  Have an overview of your surroundings, or view the entire world.  Create waypoints." />
 
     </mods>
 
