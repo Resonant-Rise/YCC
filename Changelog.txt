@@ -1,4 +1,35 @@
 =================
+YCP:PF Build 003
+=================
+
+==Dependancies (Core)==
+n/a
+
+==Project Flux (Core)==
+n/a
+
+==Optional Mods==
+n/a
+
+--Client Only--
+n/a
+
+--Server Only--
+n/a
+
+==Removed==
+n/a
+
+==Configs==
+n/a
+
+==Misc.==
+finished adding all needed, optional, client/server mods.
+
+-- Dev only --
+n/a
+
+=================
 YCP:PF Build 002
 =================
 

@@ -1,6 +1,6 @@
 <version>
     <pack>
-        <version>a.0.0.1</version>
+        <version>a.0.0.3</version>
         <minecraft>1.7.10</minecraft>
         <memory>2560</memory>
         <permgen>256</permgen>
@@ -29,47 +29,31 @@
 <!-- Warnings -->
     <!--<warnings>
         <warning name="ReCubed"><![CDATA[Server Operators: If you select ReCubed, your players MUST also use it, other wise they cannot join the server.]]></warning>
-    </warnings>->
+    </warnings>-> -->
 
 
 <!-- Backend Java libraries for Forge -->
-    <libraries>
-        <library url="packs/ResonantRise/files/forgelibs/1614/launchwrapper-1.12.jar" download="server" file="launchwrapper-1.12.jar" md5="934b2d91c7c5be4a49577c9e6b40e8da" server="net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/asm-all-5.0.3.jar" download="server" file="asm-all-5.0.3.jar" md5="c5cc4613bbdfba3ccf5f0ab85390d0b8" server="org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/akka-actor_2.11-2.3.3.jar" download="server" file="akka-actor_2.11-2.3.3.jar" md5="2a3d8946f684f928c48a2dd298c5cd29" server="com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/config-1.2.1.jar" download="server" file="config-1.2.1.jar" md5="a88c2f8be90a5c41b87155cdff21e0db" server="com/typesafe/config/1.2.1/config-1.2.1.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-actors-migration_2.11-1.1.0.jar" download="server" file="scala-actors-migration_2.11-1.1.0.jar" md5="f5e79398daa1806f8b17311a3c782723" server="org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-compiler-2.11.1.jar" download="server" file="scala-compiler-2.11.1.jar" md5="06030143bf86ca896fb6ccfd679b5760" server="org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-continuations-library_2.11-1.0.2.jar" download="server" file="scala-continuations-library_2.11-1.0.2.jar" md5="c7d01e5a88182df7f22b7418abb51085" server="org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-continuations-plugin_2.11.1-1.0.2.jar" download="server" file="scala-continuations-plugin_2.11.1-1.0.2.jar" md5="daecef8fab296b764a8fb41fc07f2428" server="org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-library-2.11.1.jar" download="server" file="scala-library-2.11.1.jar" md5="1d88f665219e6006c5dd82d71c525c0f" server="org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-parser-combinators_2.11-1.0.1.jar" download="server" file="scala-parser-combinators_2.11-1.0.1.jar" md5="4e694499c965af4a02599c99d4f0b196" server="org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar" />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-reflect-2.11.1.jar" download="server" file="scala-reflect-2.11.1.jar" md5="7878fac044e4e4b576bb35a77ccc34fc" server="org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-swing_2.11-1.0.1.jar" download="server" file="scala-swing_2.11-1.0.1.jar" md5="1009d69e4948045383f2a7a334348af5" server="org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/scala-xml_2.11-1.0.2.jar" download="server" file="scala-xml_2.11-1.0.2.jar" md5="c2d7e66495afe14545c31b21e99879ef" server="org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/lzma-0.0.1.jar" download="server" file="lzma-0.0.1.jar" md5="a3e3c3186e41c4a1a3027ba2bb23cdc6" server="lzma/lzma/0.0.1/lzma-0.0.1.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/jopt-simple-4.5.jar" download="server" file="jopt-simple-4.5.jar" md5="1372bd4823bb1ef61e7db6724f601150" server="net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/guava-17.0.jar" download="server" file="guava-17.0.jar" md5="89fef81c2adfa9b50a64ed5cd5d8c155" server="com/google/guava/guava/17.0/guava-17.0.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/1614/commons-lang3-3.3.2.jar" download="server" file="commons-lang3-3.3.2.jar" md5="3128bf75a2549ebe38663401191bacab" server="org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"
-            />
-        <library url="packs/ResonantRise/files/forgelibs/liteloader-1.7.10.jar" file="liteloader-1.7.10.jar" md5="63ada46e033d0cb6782bada09ad5ca4e" download="server"
-           />
+ <libraries>
+        <library url="packs/YogscastCompletePack/files/forgelibs/launchwrapper-1.12.jar" download="server" file="launchwrapper-1.12.jar" md5="934b2d91c7c5be4a49577c9e6b40e8da" server="net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/asm-all-5.0.3.jar" download="server" file="asm-all-5.0.3.jar" md5="c5cc4613bbdfba3ccf5f0ab85390d0b8" server="org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/akka-actor_2.11-2.3.3.jar" download="server" file="akka-actor_2.11-2.3.3.jar" md5="2a3d8946f684f928c48a2dd298c5cd29" server="com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/config-1.2.1.jar" download="server" file="config-1.2.1.jar" md5="a88c2f8be90a5c41b87155cdff21e0db" server="com/typesafe/config/1.2.1/config-1.2.1.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-actors-migration_2.11-1.1.0.jar" download="server" file="scala-actors-migration_2.11-1.1.0.jar" md5="f5e79398daa1806f8b17311a3c782723" server="org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-compiler-2.11.1.jar" download="server" file="scala-compiler-2.11.1.jar" md5="06030143bf86ca896fb6ccfd679b5760" server="org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-continuations-library_2.11-1.0.2.jar" download="server" file="scala-continuations-library_2.11-1.0.2.jar" md5="c7d01e5a88182df7f22b7418abb51085" server="org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-continuations-plugin_2.11.1-1.0.2.jar" download="server" file="scala-continuations-plugin_2.11.1-1.0.2.jar" md5="daecef8fab296b764a8fb41fc07f2428" server="org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-library-2.11.1.jar" download="server" file="scala-library-2.11.1.jar" md5="1d88f665219e6006c5dd82d71c525c0f" server="org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-parser-combinators_2.11-1.0.1.jar" download="server" file="scala-parser-combinators_2.11-1.0.1.jar" md5="4e694499c965af4a02599c99d4f0b196" server="org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-reflect-2.11.1.jar" download="server" file="scala-reflect-2.11.1.jar" md5="7878fac044e4e4b576bb35a77ccc34fc" server="org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-swing_2.11-1.0.1.jar" download="server" file="scala-swing_2.11-1.0.1.jar" md5="1009d69e4948045383f2a7a334348af5" server="org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/scala-xml_2.11-1.0.2.jar" download="server" file="scala-xml_2.11-1.0.2.jar" md5="c2d7e66495afe14545c31b21e99879ef" server="org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/lzma-0.0.1.jar" download="server" file="lzma-0.0.1.jar" md5="a3e3c3186e41c4a1a3027ba2bb23cdc6" server="lzma/lzma/0.0.1/lzma-0.0.1.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/jopt-simple-4.5.jar" download="server" file="jopt-simple-4.5.jar" md5="1372bd4823bb1ef61e7db6724f601150" server="net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/guava-17.0.jar" download="server" file="guava-17.0.jar" md5="89fef81c2adfa9b50a64ed5cd5d8c155" server="com/google/guava/guava/17.0/guava-17.0.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/commons-lang3-3.3.2.jar" download="server" file="commons-lang3-3.3.2.jar" md5="3128bf75a2549ebe38663401191bacab" server="org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" />
+        <library url="packs/YogscastCompletePack/files/forgelibs/liteloader-1.7.10.jar" file="liteloader-1.7.10.jar" md5="63ada46e033d0cb6782bada09ad5ca4e" download="server" />
     </libraries>
+
 
 <!-- Colors for the use of seperation -->
 
@@ -80,60 +64,6 @@
             />
         <!-- Dark Cyan -->
         <colour name="lite" code="#00787A"
-            />
-        <!-- Orange -->
-        <colour name="risk" code="#FF9900"
-            />
-        <!-- Pastel Lavender -->
-        <colour name="appeng" code="#9043DE"
-            />
-        <!-- Light Brown -->
-        <colour name="Biblio" code="#915E2B"
-            />
-        <!-- Yellow -->
-        <colour name="BC" code="#FFD900"
-            />
-        <!-- Iron -->
-        <colour name="Chisel" code="#879978"
-            />
-        <!-- Ender Green -->
-        <colour name="EIO" code="#0FC70A"
-            />
-        <!-- Light Fuisha -->
-        <colour name="Ex" code="#FF99FF"
-            />
-        <!-- Green -->
-        <colour name="For" code="#00AD00"
-            />
-        <!-- Blue -->
-        <colour name="GC" code="#B8BD5C"
-            />
-        <!-- Tan(-ish) -->
-        <colour name="Hyd" code="#757542"
-            />
-        <!-- Odd Fuisha -->
-        <colour name="Im" code="#A074A8"
-            />
-        <!-- Cyan -->
-        <colour name="Mek" code="#00AB94"
-            />
-        <!-- Greeinish-Brown -->
-        <colour name="MPS" code="#4CB233"
-            />
-        <!-- Dark Blue -->
-        <colour name="Open" code="#3D5CA3"
-            />
-        <!-- Red-Orange -->
-        <colour name="QB" code="#FF2400"
-            />
-        <!-- Purple -->
-        <colour name="TC4" code="#B352AC"
-            />
-        <!-- Rust -->
-        <colour name="TiCo" code="#806633"
-            />
-        <!-- IC2 -->
-        <colour name="IC2" code="#C4A589"
             />
 
     </colours>
@@ -153,7 +83,7 @@
 <!-- Forge -->
 
         <mod name="Minecraft Forge"
-             version="10.13.4.1614" url="packs/ResonantRise/files/forgelibs/1614/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar" file="forge-1.7.10-10.13.4.1614-1.7.10-universal.jar" md5="add0fba161c4652a96efb4264ec2d9ec" download="server"
+             version="10.13.4.1614" url="packs/YogscastCompletePack/files/forgelibs/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar" file="forge-1.7.10-10.13.4.1614-1.7.10-universal.jar" md5="add0fba161c4652a96efb4264ec2d9ec" download="server"
              type="forge"
              website="http://www.minecraftforge.net/forum/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z5MLLA62HSUM2"
              authors="Eloraam,FlowerChild,Hawkye,MALfunction84,Scokeev9,SpaceToad,LexManos,cpw"
@@ -166,7 +96,7 @@
 
         <mod name="bspkrsCore"
              version="6.16" url="packs/YogscastCompletePack/files/Project_Flux/[1.7.10]bspkrsCore-universal-6.16.jar" file="[1.7.10]bspkrsCore-universal-6.16.jar" md5="e77344bda12bd0b91e01dfbb00a653f0" download="server"
-             type="mods"
+             type="dependency"
              website="http://www.minecraftforum.net/topic/1114612-/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/bspkrscore?gameCategorySlug=mc-mods&amp;projectID=59218&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=briefcase.speakers%40gmail.com&amp;bn=PP-DonationsBF:btn_donat"
              authors="DaftPVF,bspkrs"
              description="Shared classes used in the mods maintained by bspkrs."
@@ -174,7 +104,7 @@
 
         <mod name="Baubles"
              version="1.0.1.10" url="packs/YogscastCompletePack/files/Project_Flux/Baubles-1.7.10-1.0.1.10.jar" file="Baubles-1.7.10-1.0.1.10.jar" md5="0e711d6535970f62d4964edaa26f4623" download="server"
-             type="mods"
+             type="dependency"
              website="http://www.minecraftforum.net/topic/2535073-baubles" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/baubles?gameCategorySlug=mc-mods&amp;projectID=227083&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=leon%40imaginet.co.za&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:"
              authors="Azanor"
              description="Adding a touch of bling to Minecraft"
@@ -182,28 +112,31 @@
 
         <mod name="CodeChickenLib"
              version="1.1.3.138" url="packs/YogscastCompletePack/files/Project_Flux/CodeChickenLib-1.7.10-1.1.3.138-universal.jar" file="CodeChickenLib-1.7.10-1.1.3.138-universal.jar" md5="07fd1a4d8337cca200d871e25426705d" download="server"
-             type="mods"
-             website=""
+             type="dependency"
+             website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods"
+             authors="ChickenBones"
              description="CodeChiken Lib File"
              />
 
-        <mod name=""
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/commons-codec-1.9.jar" file="commons-codec-1.9.jar" md5="75615356605c8128013da9e3ac62a249" download="server"
-             type="mods"
-             website=""
-             description=""
+        <mod name="Commons-Codec"
+             version="1.9" url="packs/YogscastCompletePack/files/Project_Flux/commons-codec-1.9.jar" file="commons-codec-1.9.jar" md5="75615356605c8128013da9e3ac62a249" download="server"
+             type="dependency"
+             website="https://commons.apache.org/proper/commons-codec/"
+             authors="Apache Team"
+             description="Apache Commons Codec (TM) software provides implementations of common encoders and decoders such as Base64, Hex, Phonetic and URLs."
              />
 
-        <mod name=""
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/commons-compress-1.8.1.jar" file="commons-compress-1.8.1.jar" md5="d862e30ff6b5d78264677dcd6507abb8" download="server"
-             type="mods"
-             website=""
-             description=""
+        <mod name="Commons-Compress"
+             version="1.8.1" url="packs/YogscastCompletePack/files/Project_Flux/commons-compress-1.8.1.jar" file="commons-compress-1.8.1.jar" md5="d862e30ff6b5d78264677dcd6507abb8" download="server"
+             type="dependency"
+             website="https://commons.apache.org/proper/commons-compress/"
+             authors="Apache Team"
+             description="The Apache Commons Compress library defines an API for working with ar, cpio, Unix dump, tar, zip, gzip, XZ, Pack200, bzip2, 7z, arj, lzma, snappy, DEFLATE and Z files."
              />
 
         <mod name="Forge Multipart"
              version="1.2.0.344" url="packs/YogscastCompletePack/files/Project_Flux/ForgeMultipart-1.7.10-1.2.0.344-universal.jar" file="ForgeMultipart-1.7.10-1.2.0.344-universal.jar" md5="cd28e9cd1a4b019fe196c95d12be0c8e" download="server"
-             type="mods"
+             type="dependency"
              website="https://github.com/Chicken-Bones/ForgeMultipart"
              authors="ChickenBones"
              description="Open source library for facilitation of multiple functional parts in the one block space."
@@ -211,7 +144,7 @@
 
         <mod name="libsandstone"
              version="1.0.0" url="packs/YogscastCompletePack/files/Project_Flux/LibSandstone-1.0.0.jar" file="LibSandstone-1.0.0.jar" md5="1ab495f90923a2d0c67541d1e88ec32f" download="server"
-             type="mods"
+             type="dependency"
              website="http://www.curseforge.com/projects/224828/"
              authors="x3n0ph0b3,TheMike"
              description="Sandstone, the foundation for pyramids. Another modding framework."
@@ -219,8 +152,8 @@
 
         <mod name="MrTJPCore"
              version="1.0.8.16" url="packs/YogscastCompletePack/files/Project_Flux/MrTJPCore-1.0.8.16-universal.jar" file="MrTJPCore-1.0.8.16-universal.jar" md5="3a7947a41103bff7f553088a7a1e2706" download="server"
-             type="mods"
-             website="..."
+             type="dependency"
+             website="http://projectredwiki.com"
              authors="MrTJP"
              description="Core libs and utilities"
              />
@@ -230,13 +163,13 @@
         <mod name="AE2 Stuff"
              version="0.4.3.47" url="packs/YogscastCompletePack/files/Project_Flux/AE2STUFF-0.4.3.47-MC1.7.10.jar" file="AE2STUFF-0.4.3.47-MC1.7.10.jar" md5="cbf4c7e56820bb40c91ead8331dfbb32" download="server"
              type="mods"
-             website="bdew.net" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ae2-stuff?gameCategorySlug=mc-mods&amp;projectID=225194&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif"
+             website="http://bdew.net" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ae2-stuff?gameCategorySlug=mc-mods&amp;projectID=225194&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif"
              authors="bdew"
              description="Various Extensions for Applied Energistics 2"
              />
 
         <mod name="Ancient Warfare 2"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/ANCIENTWARFARE-2.4.106-BETA-MC1.7.10-FULL.jar" file="ANCIENTWARFARE-2.4.106-BETA-MC1.7.10-FULL.jar" md5="b941316d430480ea5ee40cc301558734" download="server"
+             version="2.4.106" url="packs/YogscastCompletePack/files/Project_Flux/ANCIENTWARFARE-2.4.106-BETA-MC1.7.10-FULL.jar" file="ANCIENTWARFARE-2.4.106-BETA-MC1.7.10-FULL.jar" md5="b941316d430480ea5ee40cc301558734" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/224602/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ancient-warfare-2?gameCategorySlug=mc-mods&amp;projectID=224602&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=shadowmage45%40hotmail.com&amp;bn=PP-DonationsBF:btn_d"
              authors="shadowmage45"
@@ -294,7 +227,7 @@
         <mod name="Artifacts"
              version="1.1.1" url="packs/YogscastCompletePack/files/Project_Flux/ARTIFACTS-1.1.1.jar" file="ARTIFACTS-1.1.1.jar" md5="c4aca3de43cd28b457a94e4f16490238" download="server"
              type="mods"
-             website="http://tinyurl.com/nx8w53h"
+             website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1291999-unique-artifacts-powerful-randomly-generated-items"
              authors="Draco18s,Tmtravlr"
              description="Adds randomly generated magic items to treasure loot generation."
              />
@@ -310,7 +243,7 @@
         <mod name="asielib"
              version="1.7.10-0.4.2" url="packs/YogscastCompletePack/files/Project_Flux/ASIELIB-1.7.10-0.4.2.jar" file="ASIELIB-1.7.10-0.4.2.jar" md5="75111eca786acd82cc0c410c0b58a714" download="server"
              type="mods"
-             website=""
+             website="http://wiki.vex.tty.sh/wiki:asielib"
              authors="asiekierka,Vexatos"
              description="Utilities for asie&apos;s mods"
              />
@@ -342,7 +275,7 @@
         <mod name="BD Lib"
              version="1.9.1.97" url="packs/YogscastCompletePack/files/Project_Flux/BDLIB-1.9.1.97-MC1.7.10.jar" file="BDLIB-1.9.1.97-MC1.7.10.jar" md5="a5a8c21c09dfd841f84541750d9e1074" download="server"
              type="mods"
-             website="bdew.net/mods/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/bdlib?gameCategorySlug=mc-mods&amp;projectID=70496&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonH"
+             website="http://bdew.net/mods/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/bdlib?gameCategorySlug=mc-mods&amp;projectID=70496&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonH"
              authors="bdew"
              description="A library of generic code for my other mods"
              />
@@ -390,7 +323,7 @@
         <mod name="The BigTrees Mod"
              version="1.7.2b-forge1060" url="packs/YogscastCompletePack/files/Project_Flux/BIGTREES-172B-FORGE1060.jar" file="BIGTREES-172B-FORGE1060.jar" md5="465917560c53ef73f38ffee25ad7bc59" download="server"
              type="mods"
-             website="www.minecraftforum.net/topic/782646-"
+             website="http://www.minecraftforum.net/topic/782646-"
              authors="Karob,ThorinStonehelm"
              description="Adds larger trees to Minecraft, enhancing dimensional complexity and atmophsere."
              />
@@ -446,7 +379,7 @@
         <mod name="Carpenter&apos;s Blocks"
              version="3.3.6" url="packs/YogscastCompletePack/files/Project_Flux/CARPENTERS BLOCKS V3.3.6 - MC 1.7.10.jar" file="CARPENTERS BLOCKS V3.3.6 - MC 1.7.10.jar" md5="e10ec38141819884cecacb4cfa5389a6" download="server"
              type="mods"
-             website="www.carpentersblocks.com"
+             website="http://www.carpentersblocks.com"
              authors="Mineshopper"
              description="Adds slopes and a variety of vanilla-inspired blocks that support covers, side covers, overlays, dyes and chiseled patterns."
              />
@@ -494,7 +427,8 @@
         <mod name="CodeChickenCore"
              version="1.0.7.46" url="packs/YogscastCompletePack/files/Project_Flux/CODECHICKENCORE-1.7.10-1.0.7.46-UNIVERSAL.jar" file="CODECHICKENCORE-1.7.10-1.0.7.46-UNIVERSAL.jar" md5="8419dad3d2a93e11f0cedbe0868281f2" download="server"
              type="mods"
-             website=""
+             website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1279956-chickenbones-mods"
+             authors="ChickenBones"
              description="CodeChiken Core File"
              />
 
@@ -533,7 +467,7 @@
         <mod name="Computronics"
              version="1.7.10-1.5.5" url="packs/YogscastCompletePack/files/Project_Flux/COMPUTRONICS-1.7.10-1.5.5.jar" file="COMPUTRONICS-1.7.10-1.5.5.jar" md5="1c655e2b4e33e1e8393a338809123986" download="server"
              type="mods"
-             website=""
+             website="http://wiki.vex.tty.sh/wiki:computronics"
              authors="asiekierka,Techokami,Vexatos"
              description="A ComputerCraft/OpenComputers/NedoComputers addon mod."
              />
@@ -579,19 +513,11 @@
              />
 
         <mod name="Draconic Evolution"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/DRACONIC-EVOLUTION-1.7.10-1.0.1C.jar" file="DRACONIC-EVOLUTION-1.7.10-1.0.1C.jar" md5="c51fd0233f5ff3a030b36394bdf31c9f" download="server"
+             version="1.0.1c" url="packs/YogscastCompletePack/files/Project_Flux/DRACONIC-EVOLUTION-1.7.10-1.0.1C.jar" file="DRACONIC-EVOLUTION-1.7.10-1.0.1C.jar" md5="c51fd0233f5ff3a030b36394bdf31c9f" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/223565/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/draconic-evolution?gameCategorySlug=mc-mods&amp;projectID=223565&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=brandon4261%40gmail.com&amp;bn=PP-DonationsBF:btn_don"
              authors="brandon3055"
              description="Draconic Evolution is a mod that adds some extremely expensive high tier items to the game. "
-             />
-
-        <mod name="EiraIRC"
-             version="2.8.270" url="packs/YogscastCompletePack/files/Project_Flux/EIRAIRC-MC1.7.10-2.8.270.jar" file="EIRAIRC-MC1.7.10-2.8.270.jar" md5="e8534e568dafa0aa260263a2acdcd111" download="server"
-             type="mods"
-             website="http://blay09.net" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=HSFYLPEWBZSHY&amp;item_name=EiraIRC+(from+curseforge.com)&amp;cmd=_s-xclick"
-             authors="blay09"
-             description="An IRC Connector that works both on clients and servers independently, with some community-friendly extra features."
              />
 
         <mod name="Enchiridion 2"
@@ -699,7 +625,7 @@
              />
 
         <mod name="Fossils and Archeology Revival"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/FOSSILS_ARCHEOLOGY_REVIVAL-1.7.10_BUILD-7.2.jar" file="FOSSILS_ARCHEOLOGY_REVIVAL-1.7.10_BUILD-7.2.jar" md5="21831eaee7c71fe303401958ea93b180" download="server"
+             version="7.2" url="packs/YogscastCompletePack/files/Project_Flux/FOSSILS_ARCHEOLOGY_REVIVAL-1.7.10_BUILD-7.2.jar" file="FOSSILS_ARCHEOLOGY_REVIVAL-1.7.10_BUILD-7.2.jar" md5="21831eaee7c71fe303401958ea93b180" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/223908/"
              authors="ox35ec,alex1the1666,iLexiconn,tyranno66"
@@ -715,7 +641,7 @@
              />
 
         <mod name="Garden Stuff"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/GARDENSTUFF-1.7.10-1.6.3.jar" file="GARDENSTUFF-1.7.10-1.6.3.jar" md5="0509a44aed58851b9b7a66adb55ae6a8" download="server"
+             version="1.6.3" url="packs/YogscastCompletePack/files/Project_Flux/GARDENSTUFF-1.7.10-1.6.3.jar" file="GARDENSTUFF-1.7.10-1.6.3.jar" md5="0509a44aed58851b9b7a66adb55ae6a8" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/225903/"
              authors="jaquadro"
@@ -725,7 +651,7 @@
         <mod name="GenDustry"
              version="1.5.2.107" url="packs/YogscastCompletePack/files/Project_Flux/GENDUSTRY-1.5.2.107-MC1.7.10.jar" file="GENDUSTRY-1.5.2.107-MC1.7.10.jar" md5="ed9e0e5d6ab4ec33c84edafd0e0fdd5d" download="server"
              type="mods"
-             website="bdew.net/mods/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/gendustry?gameCategorySlug=mc-mods&amp;projectID=70492&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:"
+             website="http://bdew.net/mods/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/gendustry?gameCategorySlug=mc-mods&amp;projectID=70492&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:"
              authors="bdew"
              description="Adds industrial apiaries, advanced genetic manipulation and mutation (Forestry addon)"
              />
@@ -763,7 +689,7 @@
              />
 
         <mod name="Hardcore Ender Expansion"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/HARDCOREENDEREXPANSION  MC-1.7.10  V1.8.2.jar" file="HARDCOREENDEREXPANSION  MC-1.7.10  V1.8.2.jar" md5="1afc8fa6ee36bb7a3326b1bc75175260" download="server"
+             version="1.8.2" url="packs/YogscastCompletePack/files/Project_Flux/HARDCOREENDEREXPANSION  MC-1.7.10  V1.8.2.jar" file="HARDCOREENDEREXPANSION  MC-1.7.10  V1.8.2.jar" md5="1afc8fa6ee36bb7a3326b1bc75175260" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/228015/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/hardcore-ender-expansion?gameCategorySlug=mc-mods&amp;projectID=228015&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=chylex%40fo2.cz&amp;bn=PP-DonationsBF:btn_donat"
              authors="chylex"
@@ -783,7 +709,7 @@
              type="mods"
              website="http://www.minecraftforum.net/topic/1001131-110-immibiss-mods-smp/"
              authors="immibis"
-             description=""
+             description="Core file for Immibis mods"
              />
 
         <mod name="Immibis&apos;s Peripherals"
@@ -797,8 +723,9 @@
         <mod name="Industrial-Craft 2 API"
              version="2.2.736" url="packs/YogscastCompletePack/files/Project_Flux/INDUSTRIALCRAFT-2-2.2.736-EXPERIMENTAL-API.jar" file="INDUSTRIALCRAFT-2-2.2.736-EXPERIMENTAL-API.jar" md5="a2990486c7e7f05fe34ffddfcb7cd096" download="server"
              type="mods"
-             website=""
-             description=""
+             website="http://www.industrial-craft.net"
+             authors="Alblaka,Player,RichardG,Thunderdark,GregoriusT,alexthesax,Drashian,Elementalist,Feanturi,Lurch1985,SirusKing,tahu44"
+             description="Idustrial Craft 2 Core API"
              />
 
         <mod name="INpureCore"
@@ -826,7 +753,7 @@
              />
 
         <mod name="IvToolkit"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/IVTOOLKIT-1.2.jar" file="IVTOOLKIT-1.2.jar" md5="db4535698a2b9db60741c0ac0f7baae6" download="server"
+             version="1.2" url="packs/YogscastCompletePack/files/Project_Flux/IVTOOLKIT-1.2.jar" file="IVTOOLKIT-1.2.jar" md5="db4535698a2b9db60741c0ac0f7baae6" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/224535/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ivtoolkit?gameCategorySlug=mc-mods&amp;projectID=224535&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=lukastenbrink%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_L"
              authors="Ivorforce"
@@ -853,8 +780,9 @@
         <mod name="Logistics Pipes"
              version="0.9.1.15" url="packs/YogscastCompletePack/files/Project_Flux/LOGISTICSPIPES-0.9.1.15.jar" file="LOGISTICSPIPES-0.9.1.15.jar" md5="c7763ec2287419a568484b67cc14eb88" download="server"
              type="mods"
-             website=""
-             description=""
+             website="http://www.curse.com/mc-mods/minecraft/232838-logistics-pipes"
+             authors="davboecki,theZorro266"
+             description="Logistics Pipes is an extensive overhaul of the Buildcraft pipe system. It allows for better distribution of items via pipes, more organised stockkeeping and easier automated crafting."
              />
 
         <mod name="LunatriusCore"
@@ -868,7 +796,7 @@
         <mod name="Magic Bees"
              version="1.7.10-2.3.2" url="packs/YogscastCompletePack/files/Project_Flux/MAGICBEES-1.7.10-2.3.2.jar" file="MAGICBEES-1.7.10-2.3.2.jar" md5="4abb8aff2addb52d26d9199e2e0f6ae4" download="server"
              type="mods"
-             website="http://bit.ly/XFDvLY"
+             website="http://minecraft.curseforge.com/projects/magic-bees"
              authors="MysteriousAges"
              description="Magic themed bee expansion for Forestry. TC4, Botania, EE3, AM 2, TE 3"
              />
@@ -908,7 +836,7 @@
         <mod name="MekanismGenerators"
              version="8.1.7" url="packs/YogscastCompletePack/files/Project_Flux/MEKANISMGENERATORS-1.7.10-8.1.7.252.jar" file="MEKANISMGENERATORS-1.7.10-8.1.7.252.jar" md5="8126b450eb48801940a021958f1c03df" download="server"
              type="mods"
-             website=""
+             website="http://www.curseforge.com/projects/238550/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/mekanism?gameCategorySlug=mc-mods&amp;projectID=238550&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=stefanmariusvasile9577%40gmail.com&amp;bn=PP-DonationsBF:btn_do"
              authors="aidancbrady"
              description="Generators module of Mekanism."
              />
@@ -916,7 +844,7 @@
         <mod name="MekanismTools"
              version="8.1.7" url="packs/YogscastCompletePack/files/Project_Flux/MEKANISMTOOLS-1.7.10-8.1.7.252.jar" file="MEKANISMTOOLS-1.7.10-8.1.7.252.jar" md5="4e8a035ca80c95dd677f541da84917ae" download="server"
              type="mods"
-             website=""
+             website="http://www.curseforge.com/projects/238550/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/mekanism?gameCategorySlug=mc-mods&amp;projectID=238550&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=stefanmariusvasile9577%40gmail.com&amp;bn=PP-DonationsBF:btn_do"
              authors="aidancbrady"
              description="Tools module for Mekanism."
              />
@@ -938,7 +866,7 @@
              />
 
         <mod name="Minefactory Reloaded"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/MINEFACTORYRELOADED-[1.7.10]2.8.0-104.jar" file="MINEFACTORYRELOADED-[1.7.10]2.8.0-104.jar" md5="51f38281ef847b479f38aa5fe087be4a" download="server"
+             version="2.8.0-104" url="packs/YogscastCompletePack/files/Project_Flux/MINEFACTORYRELOADED-[1.7.10]2.8.0-104.jar" file="MINEFACTORYRELOADED-[1.7.10]2.8.0-104.jar" md5="51f38281ef847b479f38aa5fe087be4a" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/66672/"
              authors="skyboy026"
@@ -972,13 +900,13 @@
         <mod name="Natura"
              version="1.7.10-92.8a1150f" url="packs/YogscastCompletePack/files/Project_Flux/NATURA-1.7.10-2.2.0.1.jar" file="NATURA-1.7.10-2.2.0.1.jar" md5="ed9a7044d963b7e5ce7ca52ec628bd11" download="server"
              type="mods"
-             website="www.minecraftforum.net/topic/1753754-natura/"
+             website="http://www.minecraftforum.net/topic/1753754-natura/"
              authors="mDiyo,Slime Knights"
              description="Heyo, Redwood trees! Chop them all day long!"
              />
 
         <mod name="NEI Addons"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/NEIADDONS-1.12.11.36-MC1.7.10.jar" file="NEIADDONS-1.12.11.36-MC1.7.10.jar" md5="ffe6d67f665e2f2f8735a1b824d219d0" download="server"
+             version="1.12.11.36" url="packs/YogscastCompletePack/files/Project_Flux/NEIADDONS-1.12.11.36-MC1.7.10.jar" file="NEIADDONS-1.12.11.36-MC1.7.10.jar" md5="ffe6d67f665e2f2f8735a1b824d219d0" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/63352/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/nei-addons?gameCategorySlug=mc-mods&amp;projectID=63352&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=blackdew%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif"
              authors="bdew"
@@ -1004,8 +932,9 @@
         <mod name="Not Enough Items"
              version="1.0.5.111" url="packs/YogscastCompletePack/files/Project_Flux/NOTENOUGHITEMS-1.7.10-1.0.5.111-UNIVERSAL.jar" file="NOTENOUGHITEMS-1.7.10-1.0.5.111-UNIVERSAL.jar" md5="2a1ad0bb450ad389ba515bf95d24a1d9" download="server"
              type="mods"
-             website=""
-             description=""
+             website="http://www.minecraftforum.net/topic/909223"
+             authors="ChickenBones"
+             description="Recipe Viewer, Inventory Manager, Item Spawner, Cheats and more."
              />
 
         <mod name="NotEnoughKEys"
@@ -1018,7 +947,7 @@
              />
 
         <mod name="Not Enough Resources"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/NOTENOUGHRESOURCES-1.7.10-0.1.0.95.jar" file="NOTENOUGHRESOURCES-1.7.10-0.1.0.95.jar" md5="d5418e1f914cddc8b10e1f8536036daa" download="server"
+             version="0.1.0.95" url="packs/YogscastCompletePack/files/Project_Flux/NOTENOUGHRESOURCES-1.7.10-0.1.0.95.jar" file="NOTENOUGHRESOURCES-1.7.10-0.1.0.95.jar" md5="d5418e1f914cddc8b10e1f8536036daa" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/225815/"
              authors="hilburn,way2muchnoise"
@@ -1092,7 +1021,7 @@
         <mod name="PneumaticCraft"
              version="1.9.2-88" url="packs/YogscastCompletePack/files/Project_Flux/PNEUMATICCRAFT-1.7.10-1.9.2-88-UNIVERSAL.jar" file="PNEUMATICCRAFT-1.7.10-1.9.2-88-UNIVERSAL.jar" md5="a7f8a3fab5eea558dbde89893e531572" download="server"
              type="mods"
-             website="www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/pneumaticcraft?gameCategorySlug=mc-mods&amp;projectID=224125&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_do"
+             website="http://www.minemaarten.com" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/pneumaticcraft?gameCategorySlug=mc-mods&amp;projectID=224125&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=loopycoaster_8%40hotmail.com&amp;bn=PP-DonationsBF:btn_do"
              authors="MineMaarten"
              description="A technical mod all about pneumatics!"
              />
@@ -1228,7 +1157,7 @@
         <mod name="Soul Shards Reborn"
              version="rc3" url="packs/YogscastCompletePack/files/Project_Flux/SSR-RC3.jar" file="SSR-RC3.jar" md5="1cdc8d89b42c02dfdf135c75bc6d6b4d" download="server"
              type="mods"
-             website=""
+             website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445947-1-7-10-soul-shards-reborn-original-soul-shards"
              authors="Moze_Intel"
              description="Complete remake of the old Soul Shards."
              />
@@ -1236,13 +1165,13 @@
         <mod name="Statues"
              version="2.1.4" url="packs/YogscastCompletePack/files/Project_Flux/STATUES-1.7.10-2.1.4.jar" file="STATUES-1.7.10-2.1.4.jar" md5="083a94e77bd69a0ac454771becb4c7e0" download="server"
              type="mods"
-             website=""
+             website="http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294512-asies-mods-computronics-asiefixes-mod-ports"
              authors="AUTOMATIC_MAIDEN,asiekierka"
              description="Adds a hammer used to craft Statues."
              />
 
         <mod name="Steve&apos;s Addons"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/STEVESADDONS-1.7.10-0.10.13.jar" file="STEVESADDONS-1.7.10-0.10.13.jar" md5="54e6fb11a2636546e5f8045d53ffc70f" download="server"
+             version="0.10.13" url="packs/YogscastCompletePack/files/Project_Flux/STEVESADDONS-1.7.10-0.10.13.jar" file="STEVESADDONS-1.7.10-0.10.13.jar" md5="54e6fb11a2636546e5f8045d53ffc70f" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/226067/"
              authors="hilburn"
@@ -1260,7 +1189,7 @@
         <mod name="Steve&apos;s Factory Manager"
              version="A93" url="packs/YogscastCompletePack/files/Project_Flux/STEVESFACTORYMANAGERA93.jar" file="STEVESFACTORYMANAGERA93.jar" md5="825819de2d82cf7e9118353c0fc821b6" download="server"
              type="mods"
-             website=""
+             website="http://minecraft.curseforge.com/projects/steves-factory-manager"
              authors="Vswe"
              description="Steve&apos;s Factory Manager is a mod which allows you to set up systems that moves and manages items between inventories and machines"
              />
@@ -1292,7 +1221,7 @@
         <mod name="Technomancy"
              version="0.11.1" url="packs/YogscastCompletePack/files/Project_Flux/TECHNOMANCY - 0.11.1 - 1.7.10.jar" file="TECHNOMANCY - 0.11.1 - 1.7.10.jar" md5="289f902c057e602018d32e6a29b5572a" download="server"
              type="mods"
-             website="http://goo.gl/3q163x"
+             website="http://www.curse.com/mc-mods/minecraft/229912-technomancy"
              authors="Democretes,theflogat,Mordenkainen"
              description="Science and magic. What could go wrong?"
              />
@@ -1324,7 +1253,7 @@
         <mod name="Thaumic Tinkerer"
              version="2.5-1.7.10-507" url="packs/YogscastCompletePack/files/Project_Flux/THAUMICTINKERER-2.5-1.7.10-507.jar" file="THAUMICTINKERER-2.5-1.7.10-507.jar" md5="f23e6dfd316342053d8c95b1200bcbd6" download="server"
              type="mods"
-             website="minecraftforum.net/topic/1813058-"
+             website="http://minecraftforum.net/topic/1813058-"
              authors="pixlepix,nekosune"
              description="An addon to Thaumcraft 4, implementing new content. This mod is a spiritual successor to Elemental Tinkerer. Researches that come from this mod are prefixed by [TT]."
              />
@@ -1451,7 +1380,7 @@
              />
 
         <mod name="WR-CBE-Universal"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/WR-CBE-1.7.10-1.4.1.9-UNIVERSAL.jar" file="WR-CBE-1.7.10-1.4.1.9-UNIVERSAL.jar" md5="c3477cd84ce90a85cce8ba8bb7b93809" download="server"
+             version="1.4.1.9" url="packs/YogscastCompletePack/files/Project_Flux/WR-CBE-1.7.10-1.4.1.9-UNIVERSAL.jar" file="WR-CBE-1.7.10-1.4.1.9-UNIVERSAL.jar" md5="c3477cd84ce90a85cce8ba8bb7b93809" download="server"
              type="mods"
              website="http://www.curseforge.com/projects/229314/"
              authors="chicken_bones"
@@ -1468,8 +1397,8 @@
 
     <!-- Optional Mod Set -->
 
-        <mod name="== Optional Mods ==" version="RR3" colour="Mek"
-             url="packs/ResonantRise/files/config-switches/zone00.zip" file="zone00.zip" md5="433f4c3cb1da539bcf65ba13de2f0ce4" download="server"
+        <mod name="== Optional Mods ==" version="RR3"
+             url="packs/YogscastCompletePack/files/header.zip" file="header.zip" md5="76cdb2bad9582d23c1f6f4d868218d6c" download="server"
              type="extract" extractto="root" optional="yes" recommended="no"
              website="http://resonant-rise.com"
              authors="RR Dev Team"
@@ -1477,37 +1406,77 @@
              depends="optional mods here"
              />
 
-        <!-- Biomes O' Plenty -->
+        <mod name="Biomes O&apos; Plenty"
+            version="2.1.0" url="packs/YogscastCompletePack/files/Project_Flux/BIOMESOPLENTY-1.7.10-2.1.0.1364-UNIVERSAL.jar" file="BIOMESOPLENTY-1.7.10-2.1.0.1364-UNIVERSAL.jar" md5="7aa072f0f943d67d5dbf7ad1a259b673" download="server"
+            type="mods" optional="yes"
+            website="http://www.minecraftforum.net/topic/1495041-"
+            authors="Adubbz,Amnet,Forstride,ted80"
+            description="Adds over 75 new biomes, blocks, and more!"
+            />
 
-        <!-- Gany's End -->
+        <mod name="Gany&apos;s End"
+            version="1.10.0" url="packs/YogscastCompletePack/files/Project_Flux/GANYS END-1.10.0.jar" file="GANYS END-1.10.0.jar" md5="b7fce2f3791e0c13e9c57ec525151710" download="server"
+            type="mods" optional="yes"
+            website="http://www.curseforge.com/projects/222084/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ganys-end?gameCategorySlug=mc-mods&amp;projectID=222084&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=foka_12%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gi"
+            authors="ganymedes01"
+            description="This is one of the three mods in the Gany&apos;s Mods collection. Gany&apos;s End adds blocks and functionalities related to the end (duh). Decorate your house with a better looking End Stone! or use Ender Pearls bricks! Use blocks to teleport other blocks! Make blocks disappear! Have an infinite bucket with all the water you&apos;ll need! Or behead your enemies using a scythe and gather their heads!"
+            />
 
-        <!-- Gany's Nether -->
+        <mod name="Gany&apos;s Nether"
+            version="1.8.0" url="packs/YogscastCompletePack/files/Project_Flux/GANYS NETHER-1.8.0.jar" file="GANYS NETHER-1.8.0.jar" md5="6f4a5e7b82c0f829cefca40fd10d8b79" download="server"
+            type="mods" optional="yes"
+            website="http://www.curseforge.com/projects/222302/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ganys-nether?gameCategorySlug=mc-mods&amp;projectID=222302&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=foka_12%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG"
+            authors="ganymedes01"
+            description="This is one of the three mods in the Gany&apos;s Mods collection. Gany&apos;s Nether adds new blocks and functionalities related to the Nether (duh). Tired of lurking around the Nether looking for glowstone, nether quartz or soul sand? Why not... plant them? Too many rubbish around? melt it down into useful lava that you can pipe out using Buildcraft pipes!"
+            />
 
-        <!-- Gany's Surface -->
+        <mod name="Gany&apos;s Surface"
+            version="1.11.1" url="packs/YogscastCompletePack/files/Project_Flux/GANYS SURFACE-1.11.1.jar" file="GANYS SURFACE-1.11.1.jar" md5="0ffa40187003595794bc2371b203f9e5" download="server"
+            type="mods" optional="yes"
+            website="http://www.curseforge.com/projects/222303/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/ganys-surface?gameCategorySlug=mc-mods&amp;projectID=222303&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=foka_12%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_L"
+            authors="ganymedes01"
+            description="This is one of the three mods in the Gany&apos;s Mods collection. Gany&apos;s Surface adds blocks and functionalities related to the over world (duh). Poop everywhere! Detect when is raining, make armour out of wood, and have a nice cup of tea in the morning before going mining, just don&apos;t put the milk in first!   "
+            />
 
-        <!-- Headcrumbs -->
+        <mod name="Headcrumbs"
+            version="1.5.1" url="packs/YogscastCompletePack/files/Project_Flux/HEADCRUMBS-1.5.1.jar" file="HEADCRUMBS-1.5.1.jar" md5="5de42605ed909e8c8a2ca288d66fcaa7" download="server"
+            type="mods" optional="yes"
+            website="http://www.curseforge.com/projects/222838/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/headcrumbs?gameCategorySlug=mc-mods&amp;projectID=222838&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=foka_12%40hotmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.g"
+            authors="ganymedes01"
+            description="Adds heads (and stuff)!"
+            />
 
-        <!-- Infernal Mobs -->
+        <mod name="QuiverMob"
+            version="b14" url="packs/YogscastCompletePack/files/Project_Flux/QUIVERMOB_1.7.10_B14.zip" file="QUIVERMOB_1.7.10_B14.zip" md5="358a8ae37c42ef8b515f6b843f71875d" download="server"
+            type="mods" optional="yes"
+            website="http://wildwestscifi.net/coding/10076" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/quivermob?gameCategorySlug=mc-mods&amp;projectID=221776&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=Paypal%40wildwestscifi.net&amp;bn=PP-DonationsBF:btn_donateCC_"
+            authors="Domochevsky"
+            description="Skeletons with Ranged Weaponry"
+            />
 
-        <!-- Quiver Mob -->
-
-        <!-- Veinminer -->
+        <mod name="Vein Miner"
+            version="0.27.1" url="packs/YogscastCompletePack/files/Project_Flux/VEINMINER-1.7.10_0.27.1.UNKNOWN.jar" file="VEINMINER-1.7.10_0.27.1.UNKNOWN.jar" md5="8f0c364606ec153f6fece1bb65d9642a" download="server"
+            type="mods" optional="yes"
+            website="http://minecraft.curseforge.com/mc-mods/veinminer/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/veinminer?gameCategorySlug=mc-mods&amp;projectID=67133&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=dcseee-ebay%40yahoo.com.au&amp;bn=PP-DonationsBF:btn_donateCC_L"
+            authors="portablejim"
+            description="When a configured block is harvested a chain reaction is initiated to break connected blocks of the same type. Takes durability and health for each block mined."
+            />
 
     <!-- Client and Server Mod Set -->
 
     <!-- Server and Client Only Mods (Alphabetized and sorted under Parents) -->
 
         <mod name="== Server Mods =="
-             version="RR3" colour="Mek"
-             url="packs/ResonantRise/files/config-switches/zone00.zip" file="zone00.zip" md5="433f4c3cb1da539bcf65ba13de2f0ce4" download="server"
+             version="RR3"
+             url="packs/YogscastCompletePack/files/header.zip" file="header.zip" md5="76cdb2bad9582d23c1f6f4d868218d6c" download="server"
              type="extract" extractto="root" optional="yes" recommended="no" client="no"
              website="http://resonant-rise.com"
              authors="RR Dev Team"
              description="Server Mods"
              />
 
-        <mod name="== Client Mods ==" version="RR3" colour="Mek"
-             url="packs/ResonantRise/files/config-switches/zone00.zip" file="zone00.zip" md5="433f4c3cb1da539bcf65ba13de2f0ce4" download="server"
+        <mod name="== Client Mods ==" version="RR3"
+             url="packs/YogscastCompletePack/files/header.zip" file="header.zip" md5="76cdb2bad9582d23c1f6f4d868218d6c" download="server"
              type="extract" extractto="root" optional="yes" recommended="no" server="no"
              website="http://resonant-rise.com"
              authors="RR Dev Team"
@@ -1530,7 +1499,13 @@
              description="Displays the damage you inflict on creatures, as well as current health, name and potion effects."
              />
 
-        <!-- Eira -->
+        <mod name="EiraIRC"
+             version="2.8.270" url="packs/YogscastCompletePack/files/Project_Flux/EIRAIRC-MC1.7.10-2.8.270.jar" file="EIRAIRC-MC1.7.10-2.8.270.jar" md5="e8534e568dafa0aa260263a2acdcd111" download="server"
+             type="mods" optional="yes"
+             website="http://blay09.net" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=HSFYLPEWBZSHY&amp;item_name=EiraIRC+(from+curseforge.com)&amp;cmd=_s-xclick"
+             authors="blay09"
+             description="An IRC Connector that works both on clients and servers independently, with some community-friendly extra features."
+             />
 
         <mod name="FastCraft"
              version="1.21" url="packs/YogscastCompletePack/files/Project_Flux/FASTCRAFT-1.21.jar" file="FASTCRAFT-1.21.jar" md5="f1f33a007d6a78d68e6bb217a6ffdb9e" download="server"
@@ -1548,11 +1523,17 @@
              description="Display extra information on top of your ingame screen."
              />
 
-        <!-- Journey Map -->
+        <mod name="JourneyMap"
+             version="5.1.0" url="packs/YogscastCompletePack/files/Project_Flux/JOURNEYMAP-1.7.10-5.1.0-UNLIMITED.jar" file="JOURNEYMAP-1.7.10-5.1.0-UNLIMITED.jar" md5="a22947708237e72d4765618a4e1c1033" download="server"
+             type="mods" optional="yes" server="no"
+             website="http://journeymap.info" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=D5KK9FRAQG6DE&amp;item_name=JourneyMap+(from+curseforge.com)&amp;cmd=_s-xclick"
+             authors="techbrew"
+             description="JourneyMap Unlimited Edition: Real-time map in-game or in a web browser as you explore."
+             />
 
         <mod name="MobiusCore"
              version="1.2.5_1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/MOBIUSCORE-1.2.5_1.7.10.jar" file="MOBIUSCORE-1.2.5_1.7.10.jar" md5="29990acae6a30d35057380222be87294" download="server"
-             type="mods" optional="yes" server="no"
+             type="mods" optional="yes"
              website="http://www.curseforge.com/projects/76734/"
              authors="ProfMobius"
              description="Core mod used for Opis"
@@ -1560,10 +1541,18 @@
 
         <mod name="Opis"
              version="1.2.5_1.7.10" url="packs/YogscastCompletePack/files/Project_Flux/OPIS-1.2.5_1.7.10.jar" file="OPIS-1.2.5_1.7.10.jar" md5="82e98ab306d952f3371a514333c226b4" download="server"
-             type="mods" optional="yes" server="no"
+             type="mods" optional="yes"
              website="http://www.curseforge.com/projects/73832/"
              authors="ProfMobius"
              description="Contextual server profiler"
+             />
+
+        <mod name="Morpheus" version="1.5.26"
+             url="packs/YogscastCompletePack/files/mods/MORPHEUS-1.7.10-1.5.26.jar" file="MORPHEUS-1.7.10-1.5.26.jar" md5="9ce07893d7f07cbfc55c93fcdc43b55f" download="server"
+             type="mods" optional="yes"
+             website="http://www.curseforge.com/projects/69118/" donation="https://www.paypal.com/cgi-bin/webscr?hosted_button_id=5AH8F9SRGY8HA&amp;item_name=Morpheus+(from+curseforge.com)&amp;cmd=_s-xclick"
+             authors="quetzi"
+             description="Sleep vote system"
              />
 
         <mod name="Mouse Tweaks"
@@ -1590,6 +1579,14 @@
              description="Tracks scanned nodes for Thaumcraft"
              />
 
+        <mod name="TickProfiler"
+             version="1.7.10.37" url="packs/YogscastCompletePack/files/mods/TICKPROFILER-1.7.10.37.jar" file="TICKPROFILER-1.7.10.37.jar" md5="ceb0ecd5f8c9a474e420b55138dc6eae" download="server"
+             type="mods" optional="yes" client="no"
+             website="http://nallar.me/minecraft/"
+             authors="nallar"
+             description="A small mod for servers to assist with finding which TileEntities(machines) and Entities are being slow."
+             />
+
         <mod name="TiC Tooltips"
              version="1.2.4" url="packs/YogscastCompletePack/files/Project_Flux/TICTOOLTIPS-MC1.7.10-1.2.4.jar" file="TICTOOLTIPS-MC1.7.10-1.2.4.jar" md5="46aec5e72a6b43ffa06550b330a9a751" download="server"
              type="mods" optional="yes" server="no"
@@ -1599,7 +1596,7 @@
              />
 
         <mod name="VoxelMap"
-             version="" url="packs/YogscastCompletePack/files/Project_Flux/MOD_VOXELMAP_1.5.13_FOR_1.7.10.litemod" file="MOD_VOXELMAP_1.5.13_FOR_1.7.10.litemod" md5="96b6c6ca0cc2cefe890f5a5731416110" download="server"
+             version="1.5.13" url="packs/YogscastCompletePack/files/Project_Flux/MOD_VOXELMAP_1.5.13_FOR_1.7.10.litemod" file="MOD_VOXELMAP_1.5.13_FOR_1.7.10.litemod" md5="96b6c6ca0cc2cefe890f5a5731416110" download="server"
              type="mods" optional="yes" server="no"
              website="http://www.curseforge.com/projects/225179/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/voxelmap?gameCategorySlug=mc-mods&amp;projectID=225179&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=MamiyaOtaru%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.g"
              authors="Mamiya0taru"
