@@ -1,4 +1,35 @@
 =================
+YCP:PF Build 004
+=================
+
+==Dependancies (Core)==
+n/a
+
+==Project Flux (Core)==
+n/a
+
+==Optional Mods==
+n/a
+
+--Client Only--
+n/a
+
+--Server Only--
+n/a
+
+==Removed==
+n/a
+
+==Configs==
+Added Configs and Scripts to Git
+
+==Misc.==
+n/a
+
+-- Dev only --
+n/a
+
+=================
 YCP:PF Build 003
 =================
 
